@@ -4,17 +4,19 @@ import Timer from "./components/timer/Timer";
 import Video from "./components/background/Video";
 import Domain from "./components/domain/Domain";
 import Sponsors from "./components/sponsors/Sponsors";
+import Faques from "./components/faq/Faques";
 
-const App=()=>{
-    return(
-        <>
-            <Video/>
-            <Navbar/>
-            <Timer/>
-            <Domain/>
-            <Sponsors/>
-        </>
-    );
-}
+const App = () => {
+  return (
+    <>
+      <Video />
+      <Navbar />
+      <Timer />
+      <Domain />
+      <Sponsors />
+      <Faques />
+    </>
+  );
+};
 
-export default App
+export default App;
