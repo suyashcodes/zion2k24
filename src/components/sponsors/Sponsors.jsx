@@ -9,6 +9,8 @@ const Sponsors=()=>{
                 <div className="titleSponsors">
                     <img className="logo" src="assets/gfg.png" alt="" />
                     <img className="logo" src="assets/aptoslogo.jpg" alt="" />
+                    <img className="logo" src="assets/gfg.png" alt="" />
+                    <img className="logo" src="assets/polygonlogo.png" alt="" />
                 </div>
                 
             </div>

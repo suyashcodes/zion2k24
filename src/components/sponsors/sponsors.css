@@ -1,36 +1,37 @@
-@font-face{
-    font-family: myFont;
-    src: url(../../../public/assets/fonts/vtks.ttf);
+@font-face {
+  font-family: myFont;
+  src: url(../../../public/assets/fonts/vtks.ttf);
 }
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.container{
-    display: flex;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.domainHeading{
-    /* font-weight: bold; */
-    font-size: 80px;
-    color: rgb(251,112,62);
-    font-family: myFont;
+.container {
+  display: flex;
 }
 
-.titleSponsors{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 80%;
+.domainHeading {
+  /* font-weight: bold; */
+  font-size: 80px;
+  color: rgb(251, 112, 62);
+  font-family: myFont;
 }
 
-.logo{
-    max-height: 125px;
-    max-width: 175px;
-    object-fit: cover;
-    margin: 0 20px 20px 0;
+.titleSponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 50px;
+}
+
+.logo {
+  max-height: 125px;
+  width: auto;
+  object-fit: cover;
+  margin: 0 90px 50px 0;
 }
