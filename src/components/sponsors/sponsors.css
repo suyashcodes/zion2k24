@@ -1,0 +1,36 @@
+@font-face{
+    font-family: myFont;
+    src: url(../../../public/assets/fonts/vtks.ttf);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.domainHeading{
+    /* font-weight: bold; */
+    font-size: 80px;
+    color: rgb(251,112,62);
+    font-family: myFont;
+}
+
+.titleSponsors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.logo{
+    max-height: 125px;
+    max-width: 175px;
+    object-fit: cover;
+    margin: 0 20px 20px 0;
+}
