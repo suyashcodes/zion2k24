@@ -1,5 +1,6 @@
 import "./aboutevent.css";
 // import googleMapImage from "../../../public/assets/fonts/map.png";
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 const Aboutevent = () => {
   return (
     <div className="wrapper">
@@ -29,13 +30,11 @@ const Aboutevent = () => {
           </a>
         </div>
         <div className="eventSection">
-          <h1 className="eventHeading">About Event</h1>
-          <p className="eventPara">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <h1 className="eventHeading">Event Timing</h1>
+          <div className="timingCont">
+            <CalendarMonthIcon className="icon"/>
+            <p className="timingText">10 - 11 Jan 2024</p>
+          </div>
         </div>
       </div>
     </div>

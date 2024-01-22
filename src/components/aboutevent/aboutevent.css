@@ -35,9 +35,9 @@
 }
 
 .eventLocationImage {
-  width: 400px;
+  width: 410px;
   height: 100%;
-  object-fit: contain; /* Adjusted to contain instead of cover */
+  object-fit: cover; /* Adjusted to contain instead of cover */
   border-radius: 10px;
   opacity: 0.7; /* Adjust the opacity if needed */
 }
@@ -48,4 +48,13 @@
   height: 150px; /* Set the desired height */
   /* width: auto; */
   overflow: hidden; /* Hide any overflow to maintain container height */
+  margin:0 0 15px 0;
+}
+
+.timingCont{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
 }
