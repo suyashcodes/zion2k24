@@ -1,0 +1,51 @@
+.wrapper {
+  width: 100%;
+}
+.eventContainer {
+  display: flex;
+  width: 90%;
+}
+
+.eventSection {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(251, 112, 62, 0.5);
+  border-radius: 10px;
+  margin-right: 20px; /* Add margin to the right of each eventSection */
+}
+
+.eventSection:last-child {
+  margin-right: 0; /* Remove margin from the last eventSection */
+}
+
+.eventHeading {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.eventPara {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.eventLocationImage {
+  width: 400px;
+  height: 100%;
+  object-fit: contain; /* Adjusted to contain instead of cover */
+  border-radius: 10px;
+  opacity: 0.7; /* Adjust the opacity if needed */
+}
+
+.eventLocationAnchor {
+  margin: 0;
+  padding: 0;
+  height: 150px; /* Set the desired height */
+  /* width: auto; */
+  overflow: hidden; /* Hide any overflow to maintain container height */
+}

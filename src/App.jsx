@@ -5,6 +5,7 @@ import Video from "./components/background/Video";
 import Domain from "./components/domain/Domain";
 import Sponsors from "./components/sponsors/Sponsors";
 import Faques from "./components/faq/Faques";
+import Aboutevent from "./components/aboutevent/Aboutevent";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Video />
       <Navbar />
       <Timer />
+      <Aboutevent />
       <Domain />
       <Sponsors />
       <Faques />

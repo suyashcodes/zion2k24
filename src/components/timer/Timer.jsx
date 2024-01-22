@@ -7,7 +7,7 @@ const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const registrationDeadline = new Date("2024-04-14T00:00:00"); // Set your registration deadline here
+    const registrationDeadline = new Date("2024-02-14T00:00:00"); // Set your registration deadline here
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
@@ -15,16 +15,16 @@ const Timer = () => {
 
       if (timeDifference > 0) {
         const remainingDays = Math.floor(
-          timeDifference / (1000 * 60 * 60 * 24)
+          timeDifference / (1000 * 60 * 60 * 24),
         );
         const remainingHours = Math.floor(
-          (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
         );
         const remainingMinutes = Math.floor(
-          (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
+          (timeDifference % (1000 * 60 * 60)) / (1000 * 60),
         );
         const remainingSeconds = Math.floor(
-          (timeDifference % (1000 * 60)) / 1000
+          (timeDifference % (1000 * 60)) / 1000,
         );
 
         setDays(remainingDays);
@@ -38,8 +38,6 @@ const Timer = () => {
 
     return () => clearInterval(intervalId);
   }, []);
-
-  
 
   return (
     <div className="wrapper">
@@ -66,8 +64,7 @@ const Timer = () => {
         </div>
       </div>
       <div className="registerContainer">
-
-      <button className="registerButton">Participate Now</button>
+        <button className="registerButton">Participate Now</button>
       </div>
     </div>
   );
