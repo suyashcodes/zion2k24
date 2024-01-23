@@ -6,6 +6,7 @@ import Domain from "./components/domain/Domain";
 import Sponsors from "./components/sponsors/Sponsors";
 import Faques from "./components/faq/Faques";
 import Aboutevent from "./components/aboutevent/Aboutevent";
+import Schedule from "./components/schedule/Schedule";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Timer />
       <Aboutevent />
       <Domain />
+      <Schedule />
       <Sponsors />
       <Faques />
     </>
