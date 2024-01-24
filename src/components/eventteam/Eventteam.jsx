@@ -11,8 +11,8 @@ const EventTeam = () => {
             src="./assets/Suyash_Dashputre.jpg"
             alt="Team Member 1"
           />
-          <h2 className="eventteam-name">VEDANT PATIL</h2>
-          <p className="eventteam-position">PRESIDENT</p>
+          <h2 className="eventteam-name">Paras Wadkar</h2>
+          <p className="eventteam-position">CSI</p>
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
@@ -47,7 +47,7 @@ const EventTeam = () => {
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">KANKSHA PHARATE</h2>
-          <p className="eventteam-position">Tech Lead</p>
+          <p className="eventteam-position">SECRETARY</p>
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
