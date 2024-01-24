@@ -21,10 +21,10 @@ const Navbar = () => {
               <span className="navLinks">Sponsors</span>
             </li>
             <li>
-              <span className="navLinks">FAQ</span>
+              <span className="navLinks">EventTeam</span>
             </li>
             <li>
-              <span className="navLinks">EventTeam</span>
+              <span className="navLinks">FAQ</span>
             </li>
             <li>
               <span className="navLinks">Contact</span>
