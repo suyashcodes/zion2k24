@@ -11,7 +11,7 @@ const EventTeam = () => {
             src="./assets/Suyash_Dashputre.jpg"
             alt="Team Member 1"
           />
-          <h2 className="eventteam-name">VEDANT PATIL</h2>
+          <h2 className="eventteam-name">Paras Wadkar</h2>
           <p className="eventteam-position">PRESIDENT</p>
           <div className="eventteam-social">
             <a
