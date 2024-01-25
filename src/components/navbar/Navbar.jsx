@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
   return (
@@ -9,25 +10,85 @@ const Navbar = () => {
         <div className="nav-elements">
           <ul className="navList">
             <li>
-              <span className="navLinks">About</span>
+              <NavLink
+                to="/home"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <span className="navLinks">Schedule</span>
+              <NavLink
+                to="/about"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <span className="navLinks">Prizes</span>
+              <NavLink
+                to="/domain"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Domain
+              </NavLink>
             </li>
             <li>
-              <span className="navLinks">Sponsors</span>
+              <NavLink
+                to="/schedule"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Schedule
+              </NavLink>
             </li>
             <li>
-              <span className="navLinks">EventTeam</span>
+              <NavLink
+                to="/prizes"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Prizes
+              </NavLink>
             </li>
             <li>
-              <span className="navLinks">FAQ</span>
+              <NavLink
+                to="/sponsors"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Sponsors
+              </NavLink>
             </li>
             <li>
-              <span className="navLinks">Contact</span>
+              <NavLink
+                to="/team"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Team
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/faq"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                FAQ
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
