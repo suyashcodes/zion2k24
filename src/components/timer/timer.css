@@ -15,11 +15,22 @@
   align-items: center;
   width: 80%;
 }
-
+@keyframes myfirst {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
 .eventlogo {
   width: 700px;
   height: 150px;
+  position: relative;
   object-fit: cover;
+  animation: myfirst 5s;
 }
 
 .timerContainer {
@@ -47,14 +58,42 @@
   transform: translateX(0%) translateZ(0px);
   color: rgb(231, 180, 11);
 }
-
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 54%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
 .slogan {
   font-family: "Oswald", sans-serif;
   font-family: "Press Start 2P", system-ui;
   font-weight: bold;
   color: wheat;
-  margin: 40px 0 60px 0;
+  margin: 5%;
+  text-shadow:
+    5px 2px #222324,
+    2px 4px #222324,
+    3px 5px #222324;
+  overflow: hidden;
+  /* border-right: 0.15em solid orange;*/
+  white-space: nowrap;
+
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
 }
+
 .timerCont {
   width: 120px;
   height: 100px;
@@ -100,6 +139,7 @@
   padding: 10px;
   width: 100%;
   height: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
 }
 
 .registerContainer {
