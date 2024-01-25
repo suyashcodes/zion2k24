@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-}
+} /*
 @keyframes myfirst {
   0% {
     top: -40px;
@@ -24,13 +24,13 @@
     opacity: 1;
     top: 0px;
   }
-}
+}*/
 .eventlogo {
   width: 700px;
   height: 150px;
   position: relative;
   object-fit: cover;
-  animation: myfirst 5s;
+  animation: zoomm 4s;
 }
 @keyframes zoomm {
   0% {
@@ -70,7 +70,7 @@
   opacity: 1;
   transform: translateX(0%) translateZ(0px);
   color: rgb(231, 180, 11);
-}
+} /*
 @keyframes typing {
   from {
     width: 0;
@@ -87,7 +87,7 @@
   50% {
     border-color: orange;
   }
-}
+}*/
 .slogan {
   font-family: "Oswald", sans-serif;
   font-family: "Press Start 2P", system-ui;
@@ -102,9 +102,11 @@
   /* border-right: 0.15em solid orange;*/
   white-space: nowrap;
 
+  animation: zoomm 4s;
+  /*
   animation:
     typing 3.5s steps(40, end),
-    blink-caret 0.75s step-end infinite;
+    blink-caret 0.75s step-end infinite;*/
 }
 
 .timerCont {
