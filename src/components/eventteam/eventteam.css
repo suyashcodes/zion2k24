@@ -1,0 +1,91 @@
+.eventteam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../../../public/assets/fonts/vtks.ttf);
+}
+
+.eventteam-title {
+  text-align: center;
+  font-size: 80px;
+  color: rgb(251, 112, 62);
+  font-family: myFont;
+}
+
+.eventteam-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.eventteam-card {
+  border: 2px solid rgb(251, 112, 62);
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 30px 30px 0;
+}
+.eventteam-card:last-child {
+  margin-right: 0;
+}
+.eventteam-card:nth-child(5) {
+  margin-right: 0;
+}
+.eventteam-name {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.eventteam-position {
+  text-align: center;
+  color: white;
+}
+.eventteam-img {
+  width: 100%;
+  height: 200px; /* Maintain the desired height */
+  object-fit: cover;
+  border: 10px;
+  /* border-top-right-radius: 10px; */
+}
+.eventteam-name {
+  padding: 0;
+  margin: 12px 0 0 0;
+}
+.eventteam-position {
+  font-family: myFont;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 12px 0px 12px 0px;
+  padding: 0;
+}
+.eventteam-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.whatsapp-anchor {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.whatsapp-anchor:last-child {
+  margin-right: 0px;
+}
+
+.socialImg {
+  width: 25px;
+  height: 25px;
+  /* margin: 10px; */
+  cursor: pointer;
+  object-fit: cover;
+}
