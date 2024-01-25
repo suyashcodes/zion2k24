@@ -20,6 +20,7 @@ const App = () => {
       <Video />
       <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<Aboutevent />} />
         <Route path="/schedule" element={<Schedule />} />
