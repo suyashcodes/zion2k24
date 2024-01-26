@@ -40,7 +40,7 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="wrapper">
+    <div className="wrap-timer">
       <div className="headingCont">
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />
         <img className="eventlogo" src="assets/Eventtrans.png" alt="" />

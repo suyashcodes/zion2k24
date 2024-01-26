@@ -89,3 +89,14 @@
   cursor: pointer;
   object-fit: cover;
 }
+@media (max-width: 768px) {
+  .eventteam {
+    margin-top: 150px;
+  }
+  .eventteam-title {
+    font-size: 60px;
+  }
+  .eventteam-card {
+    margin-right: 0px;
+  }
+}
