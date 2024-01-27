@@ -52,3 +52,15 @@
   margin: 0;
   /* border-top: 2px solid rgb(251, 112, 62); */
 }
+@media (max-width: 768px) {
+  .prizes {
+    margin-top: 150px;
+  }
+  .prizes-title {
+    font-size: 40px;
+  }
+  .prizes-card {
+    margin-bottom: 15px;
+    width: 80%;
+  }
+}
