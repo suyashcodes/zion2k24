@@ -4,7 +4,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
 const Aboutevent = () => {
   return (
-    <div className="wrap-about-us">
+    <div className="wrap-about-us" id="about">
       <div className="eventContainer">
         <div className="eventSection">
           <h1 className="eventHeading">About Event</h1>
