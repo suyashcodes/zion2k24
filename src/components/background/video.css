@@ -12,3 +12,8 @@
 .video-element {
   object-fit: cover; /* Ensure the video covers the entire container */
 }
+
+@media (max-width: 768px) {
+  .video-element {
+  }
+}
