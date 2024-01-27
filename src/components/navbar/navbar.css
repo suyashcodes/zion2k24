@@ -35,3 +35,43 @@
 .navLinks:hover {
   color: rgb(251, 112, 62);
 }
+
+/* Add the existing styles */
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .nav-elements {
+    display: flex;
+    align-items: center;
+  }
+
+  .toggle-button {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    color: white;
+  }
+
+  .navList {
+    list-style: none;
+    display: none; /* Hide the navigation links by default on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust this based on your navbar height */
+    left: 0;
+    width: 100%;
+    background-color: rgba(44, 39, 39, 0.963);
+  }
+
+  .mobile-menu-open .navList {
+    display: flex; /* Show the navigation links when mobile menu is open */
+  }
+
+  .navLinks {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+  }
+}

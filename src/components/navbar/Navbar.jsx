@@ -1,14 +1,46 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+
 const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const handleToggleMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
-    <div className="navbar">
+    <div className={`navbar ${isMobileMenuOpen ? "mobile-menu-open" : ""}`}>
       <div className="container">
         <div className="logoContainer">
           <img className="logoImg" src="assets/Devkrafttrans.png" alt="" />
         </div>
         <div className="nav-elements">
-          <ul className="navList">
+          {/* Toggle Button for Mobile */}
+          <div className="toggle-button" onClick={handleToggleMenu}>
+            &#9776;
+          </div>
+
+          {/* Navigation Links */}
+          <ul className={`navList ${isMobileMenuOpen ? "mobile-menu" : ""}`}>
+            <li>
+              <NavLink
+                to="/about"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/home"
+                className="navLinks"
+                activeClassName="activeLink"
+              >
+                About
+              </NavLink>
+            </li>
             <li>
               <NavLink
                 to="/home"
@@ -20,76 +52,32 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/about"
+                to="/home"
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                About
+                Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/domain"
+                to="/home"
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                Domain
+                Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/schedule"
+                to="/home"
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                Schedule
+                Home
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                to="/prizes"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                Prizes
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/sponsors"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                Sponsors
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/team"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                Team
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/faq"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                FAQ
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/contact"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                Contact
-              </NavLink>
-            </li>
+            {/* Add other navigation links as needed */}
           </ul>
         </div>
       </div>
