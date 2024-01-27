@@ -1,6 +1,12 @@
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
+  const showSidebar = () => {
+    document.querySelector(".sidebar").style.display = "flex";
+  };
+  const closeSidebar = () => {
+    document.querySelector(".sidebar").style.display = "none";
+  };
   return (
     <div className="navbar">
       <div className="container">
@@ -8,6 +14,116 @@ const Navbar = () => {
           <img className="logoImg" src="assets/Devkrafttrans.png" alt="" />
         </div>
         <div className="nav-elements">
+          <ul className="sidebar">
+            <li>
+              <NavLink
+                to="/home"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                <svg
+                  className="close-btn"
+                  onClick={closeSidebar}
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="30"
+                  viewBox="0 -960 960 960"
+                  width="30"
+                  fill="white"
+                >
+                  <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={closeSidebar}
+                to="/home"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={closeSidebar}
+                to="/about"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/domain"
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Domain
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/schedule"
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Schedule
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={closeSidebar}
+                to="/prizes"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Prizes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Sponsors
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={closeSidebar}
+                to="/team"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Team
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/faq"
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                FAQ
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                className="sideLinks"
+                onClick={closeSidebar}
+                activeClassName="activeLink"
+              >
+                Contact
+              </NavLink>
+            </li>
+          </ul>
           <ul className="navList">
             <li>
               <NavLink
@@ -88,6 +204,20 @@ const Navbar = () => {
                 activeClassName="activeLink"
               >
                 Contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="navLinks menu-btn">
+                <svg
+                  onClick={showSidebar}
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="30"
+                  viewBox="0 -960 960 960"
+                  width="30"
+                  fill="white"
+                >
+                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
               </NavLink>
             </li>
           </ul>
