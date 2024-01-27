@@ -16,7 +16,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/3vS4RvN"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,7 +51,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/48U3hrV"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -86,7 +86,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/3OkX93B"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -121,7 +121,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/47PMzZy"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -156,7 +156,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/3vNNbkZ"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -191,7 +191,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/3OgcWRp"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -226,7 +226,7 @@ const EventTeam = () => {
           <div className="eventteam-social">
             <a
               className="whatsapp-anchor"
-              href="wa.me/+919922026188"
+              href="https://bit.ly/42mWCnF"
               target="_blank"
               rel="noopener noreferrer"
             >
