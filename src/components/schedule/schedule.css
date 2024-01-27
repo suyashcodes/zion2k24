@@ -71,7 +71,7 @@
 }
 @media (max-width: 768px) {
   .scheduleContent {
-    width: 80%;
+    width: 75%;
   }
   .scheduleTitle {
     font-size: 60px;
