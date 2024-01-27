@@ -344,50 +344,12 @@
   height: 50px;
 }
 
-@media (max-width: 410px) {
-  .wrap-timer {
-    min-width: 100%;
-    align-items: center;
-    padding-top: 70px;
-    margin-bottom: 20px;
-  }
-  .eventlogo {
-    position: absolute;
-    top: 80px;
-    z-index: -1;
-    width: 100%;
-  }
-  .slogan {
-    text-align: center;
-    margin: 0 0 30px 0;
-
-    font-size: 26px;
-    width: 90%;
-    overflow-wrap: break-word;
-    white-space: normal;
-    position: absolute;
-    top: 250px;
-    z-index: -1;
-  }
-
-  .timerContainer {
-    position: absolute;
-    top: 300px;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 90%;
-    z-index: -1;
-    margin-top: 70px;
-  }
-  .registerContainer {
-    position: absolute;
-    top: 500px;
-    z-index: -1;
-    margin-top: 80px;
-  }
-}
-
 @media (max-width: 768px) {
+  @media (max-width: 410px) {
+    .slogan {
+      font-size: 24px;
+    }
+  }
   .wrap-timer {
     min-width: 100%;
     align-items: center;
@@ -404,7 +366,7 @@
     text-align: center;
     margin: 0 0 30px 0;
 
-    font-size: 26px;
+    font-size: 24px;
     width: 90%;
     overflow-wrap: break-word;
     white-space: normal;
