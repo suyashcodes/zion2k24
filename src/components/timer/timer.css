@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Press+Start+2P&family=Ubuntu&display=swap");
 
-.wrapper {
+.wrap-timer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -340,4 +340,39 @@
   margin-top: 45px;
   width: 260px;
   height: 50px;
+}
+
+@media (max-width: 768px) {
+  .wrap-timer {
+    min-width: 100%;
+    align-items: center;
+  }
+  .eventlogo {
+    position: absolute;
+    top: 80px;
+    z-index: -1;
+    width: 100%;
+  }
+  .slogan {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    max-width: 90%;
+    position: absolute;
+    top: 250px;
+    z-index: -1;
+  }
+  .timerContainer {
+    position: absolute;
+    top: 300px;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 90%;
+    z-index: -1;
+  }
+  .registerContainer {
+    position: absolute;
+    top: 500px;
+    z-index: -1;
+  }
 }
