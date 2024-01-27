@@ -38,7 +38,7 @@ const Contact = () => {
         <h1 className="contact-heading">Social</h1>
         <div className="contact-info">
           <a
-            href={"https://maps.app.goo.gl/HUxbgwq2RbhivCJR6"}
+            href={"https://bit.ly/3vNNbkZ"}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ const Contact = () => {
             <img className="icon" src="./assets/email2.png" alt="location" />
           </a>
           <a
-            href={"https://maps.app.goo.gl/HUxbgwq2RbhivCJR6"}
+            href={"https://www.linkedin.com/company/dev-kraft/mycompany/"}
             target="_blank"
             rel="noopener noreferrer"
           >
