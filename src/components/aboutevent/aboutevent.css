@@ -1,5 +1,7 @@
 .wrap-about-us {
   width: 100%;
+  padding-top: 70px;
+  margin-bottom: 20px;
 }
 .eventContainer {
   display: flex;
@@ -150,6 +152,8 @@
 @media (max-width: 768px) {
   .wrap-about-us {
     width: 100%;
+    padding-top: 70px;
+    margin-bottom: 20px;
   }
   .eventContainer {
     display: flex;

@@ -5,7 +5,8 @@
 }
 .faq-section {
   max-width: 800px;
-  margin: 0 auto;
+  padding-top: 70px;
+  margin-bottom: 20px;
   padding: 20px;
   /* font-family: "myFont"; Replace 'myFont' with your desired font-family */
 }
