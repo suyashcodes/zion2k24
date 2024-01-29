@@ -8,7 +8,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/personicon.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">VEDANT PATIL</h2>
@@ -43,7 +43,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/personicon.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">KANKSHA PHARATE</h2>
@@ -113,7 +113,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/OmkarYadav.PNG"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">OMKAR YADAV</h2>
@@ -148,7 +148,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/IMG_9416.jpg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">PRAJWAL KULKARNI</h2>
@@ -183,7 +183,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/personicon.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">FAIZ SHAIKH</h2>
@@ -218,7 +218,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/personicon.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">AARYA DHOLE</h2>

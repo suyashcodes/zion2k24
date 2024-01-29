@@ -1,7 +1,7 @@
 import "./contact.css";
 
 const Contact = () => {
-  const redirectToLink = "https://bit.ly/3vNNbkZ";
+  // const redirectToLink = "https://bit.ly/3vNNbkZ";
 
   return (
     <div className="contact" id="contact">
