@@ -31,7 +31,7 @@ const FAQSection = () => {
     {
       question: "How can I contact the organizers if I have further questions?",
       answer:
-        "Have queries? Connect with us! Reach out to our team members, drop an email at clubname@example.com, or slide into our DMs on LinkedIn (Club Name). Check our website's Contact section for more ways to reach us. We're here to assist you!",
+        "Have queries? Connect with us! Reach out to our team members, drop an email at devkraftclub@gmail.com, or slide into our DMs on LinkedIn (Devkraft). Check our website's Contact section for more ways to reach us. We're here to assist you!",
     },
     {
       question:
