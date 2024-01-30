@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import "./timer.css";
 const Timer = () => {
   const [days, setDays] = useState(0);
@@ -66,7 +67,14 @@ const Timer = () => {
         </div>
       </div>
       <div className="registerContainer">
-        <button className="registerButton">Participate Now</button>
+        <a
+          className="partii"
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdetrl2h7xCSDs7yo3NeaPh0e1Y2dFvY2o3PwrgIHZ_ILG0wQ/viewform?usp=sf_link"
+          rel="noreferrer"
+        >
+          <button className="registerButton">Participate Now</button>
+        </a>
       </div>
     </div>
   );

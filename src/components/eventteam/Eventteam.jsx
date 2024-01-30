@@ -8,7 +8,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/personicon.png"
+            src="./assets/Vedant2.jpeg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">VEDANT PATIL</h2>
@@ -28,7 +28,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/vedant-patil-34b098235/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,7 +63,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/kanksha-pharate-1b387528b/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,7 +78,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/Suyash_Dashputre.jpg"
+            src="./assets/Suyash3.png"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">SUYASH DASHPUTRE</h2>
@@ -133,7 +133,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/omkar-yadav-8b220825a"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -168,7 +168,7 @@ const EventTeam = () => {
             </a>
             <a
               className="whatsapp-anchor"
-              href="https://www.linkedin.com/in/codersuyash/"
+              href="https://www.linkedin.com/in/prajwal-kulkarni-398359153/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -201,7 +201,7 @@ const EventTeam = () => {
                 alt="Whatsapp Icons"
               />
             </a>
-            <a
+            {/* <a
               className="whatsapp-anchor"
               href="https://www.linkedin.com/in/codersuyash/"
               target="_blank"
@@ -212,7 +212,7 @@ const EventTeam = () => {
                 src={"./assets/linkedin.png"}
                 alt="Whatsapp Icons"
               />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="eventteam-card">
@@ -236,7 +236,7 @@ const EventTeam = () => {
                 alt="Whatsapp Icons"
               />
             </a>
-            <a
+            {/* <a
               className="whatsapp-anchor"
               href="https://www.linkedin.com/in/codersuyash/"
               target="_blank"
@@ -247,7 +247,7 @@ const EventTeam = () => {
                 src={"./assets/linkedin.png"}
                 alt="Whatsapp Icons"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
