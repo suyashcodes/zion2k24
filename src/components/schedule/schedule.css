@@ -8,6 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding-top: 25px;
+  margin-bottom: 20px;
 }
 
 .scheduleTitle {
@@ -77,6 +79,7 @@
     font-size: 60px;
   }
   .schedule {
-    margin-top: 150px;
+    padding-top: 25px;
+    margin-bottom: 20px;
   }
 }
