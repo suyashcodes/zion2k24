@@ -34,9 +34,9 @@
 }
 
 .eventPara {
-  padding: 0;
+  padding: 0 12px;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -120,7 +120,7 @@
 .aboutContent {
   padding: 0 12px 0 12px;
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 .aboutUsImage {
   /* width: 60%; */
