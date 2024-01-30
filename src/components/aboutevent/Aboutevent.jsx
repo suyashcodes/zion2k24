@@ -9,12 +9,11 @@ const Aboutevent = () => {
         <div className="eventSection">
           <h1 className="eventHeading">About Event</h1>
           <p className="eventPara">
-            Get ready for an exhilarating hackathon experience at DEVCLASH
-            Our event is a celebration of creativity, coding prowess, and
-            teamwork. Join us on 10FEB to 11FEB for an unforgettable
-            journey. Explore
-            the world of technology, showcase your skills, and vie for
-            incredible prizes. Let's innovate, collaborate, and create something
+            Get ready for an exhilarating hackathon experience at DEVCLASH Our
+            event is a celebration of creativity, coding prowess, and teamwork.
+            Join us on 10FEB to 11FEB for an unforgettable journey. Explore the
+            world of technology, showcase your skills, and vie for incredible
+            prizes. Let's innovate, collaborate, and create something
             extraordinary!
           </p>
         </div>
