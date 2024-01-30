@@ -43,9 +43,10 @@
   height: 300px;
   width: 350px;
   object-fit: cover;
-  animation: logo 5s linear infinite;
+  transform: scale(1.2);
+  /* animation: logo 5s linear infinite; */
 }
-@keyframes logo {
+/* @keyframes logo {
   0% {
     transform: rotateY(0deg) scale(1.2);
     opacity: 1.5;
@@ -58,7 +59,7 @@
     transform: rotateY(360deg) scale(1.2);
     opacity: 1.2;
   }
-}
+} */
 .copyright {
   color: white;
 }
