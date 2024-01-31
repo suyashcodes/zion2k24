@@ -3,7 +3,7 @@ import "./schedule.css";
 const Schedule = () => {
   return (
     <div className="schedule" id="schedule">
-      <h1 className="scheduleTitle">Schedule</h1>
+      <div className="scheduleTitle">Schedule</div>
       <div className="scheduleContainer">
         <div className="scheduleContent">
           <div className="scheduleContentDate">
