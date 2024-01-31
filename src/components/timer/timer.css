@@ -405,7 +405,7 @@ partii:hover {
     min-width: 100%;
     align-items: center;
     padding-top: 70px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .eventlogo {
