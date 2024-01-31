@@ -43,7 +43,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
           <img
             className="eventteam-img"
-            src="./assets/personicon.png"
+            src="./assets/KankshaPharate.jpeg"
             alt="Team Member 1"
           />
           <h2 className="eventteam-name">KANKSHA PHARATE</h2>

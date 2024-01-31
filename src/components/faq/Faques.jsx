@@ -26,12 +26,12 @@ const FAQSection = () => {
     {
       question: "What resources will be available during the hackathon?",
       answer:
-        "High-Speed Wi-Fi: We provide high-speed Wi-Fi access to ensure teams have a seamless and uninterrupted internet connection throughout the hackathon. College Computer Labs: Our college computer labs are equipped with the latest hardware and software necessary for project building. Teams are welcome to utilize these facilities for coding and development. Personal Hardware: Teams have the flexibility to use their personal hardware devices (laptops, computers, etc.) during the hackathon. Our local area network (LAN) will be configured to allow seamless connectivity to the college Wi-Fi. Damage Recovery Policy: In the rare event of damage to college-provided hardware, we have implemented a damage recovery policy. If any hardware is accidentally damaged during the hackathon, the entire team will be responsible for covering the costs of the damage. This policy encourages teams to handle equipment with care and fosters a sense of responsibility among participants.",
+        "College Computer Labs: Our college computer labs are equipped with the latest hardware and software necessary for project building. Teams are welcome to utilize these facilities for coding and development. Personal Hardware: Teams have the flexibility to use their personal hardware devices (laptops, computers, etc.) during the hackathon. Our local area network (LAN) will be configured to allow seamless connectivity to the college Wi-Fi. Damage Recovery Policy: In the rare event of damage to college-provided hardware, we have implemented a damage recovery policy. If any hardware is accidentally damaged during the hackathon, the entire team will be responsible for covering the costs of the damage. This policy encourages teams to handle equipment with care and fosters a sense of responsibility among participants.",
     },
     {
       question: "How can I contact the organizers if I have further questions?",
       answer:
-        "Have queries? Connect with us! Reach out to our team members, drop an email at clubname@example.com, or slide into our DMs on LinkedIn (Club Name). Check our website's Contact section for more ways to reach us. We're here to assist you!",
+        "Have queries? Connect with us! Reach out to our team members, drop an email at devkraftclub@gmail.com, or slide into our DMs on LinkedIn (Devkraft). Check our website's Contact section for more ways to reach us. We're here to assist you!",
     },
     {
       question:
