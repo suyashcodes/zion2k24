@@ -8,7 +8,7 @@ const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const registrationDeadline = new Date("2024-02-14T00:00:00"); // Set your registration deadline here
+    const registrationDeadline = new Date("2024-02-10T10:00:00"); // Set your registration deadline here
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
