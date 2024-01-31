@@ -10,7 +10,7 @@ const Sponsors = () => {
         <img className="logo" src="assets/gfg.png" alt="" />
         <img className="logo aptos" src="assets/aptoslogo.jpg" alt="" />
         <img className="logo" src="assets/plutope.jpeg" alt="" />
-        <img className="logo polygon" src="assets/polygonlogo.png" alt="" />
+        {/* <img className="logo polygon" src="assets/polygonlogo.png" alt="" /> */}
         <img className="logo polygon" src="assets/acampusai.png" alt="" />
       </div>
     </div>
