@@ -16,7 +16,7 @@ const FAQSection = () => {
     },
     {
       question: "How many members are allowed in a team?",
-      answer: "Minimum 1 and maximum of 5 members per team are allowed.",
+      answer: "Minimum 1 and maximum of 4 members per team are allowed.",
     },
     {
       question: "How long does the review process take?",
