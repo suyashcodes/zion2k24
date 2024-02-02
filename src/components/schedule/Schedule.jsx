@@ -21,7 +21,7 @@ const Schedule = () => {
         </div>
         <div className="scheduleContent">
           <div className="scheduleContentDate">
-            <h1 className="scheduleContentDateCont">5</h1>
+            <h1 className="scheduleContentDateCont">8</h1>
             <h1 className="scheduleContentDateCont">FEB</h1>
           </div>
           <div className="scheduleContentDetails">
@@ -35,7 +35,7 @@ const Schedule = () => {
             </p>
           </div>
         </div>
-        <div className="scheduleContent">
+{/*         <div className="scheduleContent">
           <div className="scheduleContentDate">
             <h1 className="scheduleContentDateCont">6</h1>
             <h1 className="scheduleContentDateCont">FEB</h1>
@@ -82,7 +82,7 @@ const Schedule = () => {
               teams to officially participate in the hackathon.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="scheduleContent">
           <div className="scheduleContentDate">
             <h1 className="scheduleContentDateCont">10</h1>
