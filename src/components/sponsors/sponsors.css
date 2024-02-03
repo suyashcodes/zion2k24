@@ -38,6 +38,15 @@
   margin: 0 90px 50px 0;
 }
 
+.actualone {
+  max-height: 125px;
+  /* width: auto; */
+  /* object-fit: cover; */
+  margin: 0 90px 50px 0;
+  width: auto;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .wrap-sponsors {
     max-width: 100%;
@@ -55,7 +64,8 @@
     font-size: 60px;
   }
   .polygon,
-  .aptos {
+  .aptos,
+  .acutalone {
     width: 95%;
   }
 }
