@@ -8,8 +8,8 @@ const Sponsors = () => {
       </div>
       <div className="titleSponsors">
         <img className="logo aptos" src="assets/aptos2hd.png" alt="" />
-        <img className="logo actualone" src="assets/actualoneff.jpg" alt="" />
-        <img className="logo rr" src="assets/gfg3.jpg" alt="" />
+        <img className="logo actualone" src="assets/actualonehd.jpg" alt="" />
+        <img className="logo rr" src="assets/gfghd.jpg" alt="" />
         <img className="logo" src="assets/pultopehd.png" alt="" />
         <img className="logo solana" src="assets/solanahd.png" alt="" />
         <img className="logo rr polygon" src="assets/acampusaihd.png" alt="" />
