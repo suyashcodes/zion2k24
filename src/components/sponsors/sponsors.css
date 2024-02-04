@@ -27,13 +27,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   margin-top: 50px;
 }
 
 .logo {
-  height: 150px;
-  width: 260px;
+  height: 130px;
+  width: 220px;
   object-fit: cover;
   margin: 0 90px 50px 0;
 }
@@ -61,18 +61,14 @@
   .logo {
     margin: 0 0 15px 0;
     object-fit: cover;
-    width: 90%;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     margin-bottom: 25px;
   }
   .domainHeading {
     font-size: 60px;
   }
-  .polygon,
-  .aptos,
-  .acutalone {
-    width: 90%;
-  }
+
   .hid {
     display: none;
   }
