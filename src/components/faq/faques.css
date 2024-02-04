@@ -13,9 +13,10 @@
 
 .domain-heading {
   font-family: "myFont"; /* Replace 'myFont' with your desired font-family */
-  font-size: 50px;
+  font-size: 70px !important;
   color: rgb(251, 112, 62);
   text-align: center;
+  margin: 40px 0;
 }
 
 .faq-list {
@@ -38,7 +39,7 @@
 
 .question {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
   color: white; /* Set text color to white */
   cursor: pointer;
   transition: color 0.3s ease;

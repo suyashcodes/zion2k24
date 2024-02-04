@@ -36,7 +36,7 @@ const Aboutevent = () => {
           <h1 className="eventHeading">Event Timing</h1>
           <div className="timingCont">
             <CalendarMonthIcon className="icon" />
-            <p className="timingText">From 10 Jan to 11 Jan 2024</p>
+            <p className="timingText">From 10 Feb to 11 Feb 2024</p>
           </div>
           <div className="timingCont">
             <AccessTimeOutlinedIcon className="icon" />

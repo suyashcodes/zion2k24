@@ -14,9 +14,10 @@
 
 .eventteam-title {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px !important;
   color: rgb(251, 112, 62);
   font-family: myFont;
+  margin: 40px 0;
 }
 
 .eventteam-container {
@@ -97,7 +98,7 @@
     margin-bottom: 20px;
   }
   .eventteam-title {
-    font-size: 60px;
+    font-size: 70px !important;
   }
   .eventteam-card {
     margin-right: 0px;
