@@ -88,7 +88,7 @@ const Timer = () => {
               href="https://shorturl.at/juvLP"
               rel="noreferrer"
             >
-              <button className="b1" disabled="true">Problem Statement</button>
+              <button className="b1">Problem Statement</button>
             </a>
             {/* <a
               target="_blank"
