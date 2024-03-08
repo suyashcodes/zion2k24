@@ -9,6 +9,7 @@
   min-height: 100vh;
   /* padding-top: 70px; */
   margin-bottom: 20px;
+  cursor: url("../../../public/assets/cursor.png"), auto;
   margin-top: 70px;
 }
 
@@ -28,45 +29,15 @@
   text-align: center;
   animation: zoomm 4s;
 }
-.buttonCont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.registerButton1 {
-  font-family: "Oswald", sans-serif;
-  font-family: "Press Start 2P", system-ui;
-  border: none;
-  font-weight: bold;
-  font-size: 15px;
-  color: black;
-  background-color: rgb(251, 112, 62);
-  border-radius: 20px; /* Adjust the border-radius to your preference */
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-  box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
-  animation: zoomm 4s;
-}
 
 .registerContainer1 {
   margin-top: 45px;
-  width: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
 }
-
-/*
-@keyframes myfirst {
-  0% {
-    top: -40px;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    top: 0px;
-  }
-}*/
 
 @keyframes glitch1 {
   0% {
@@ -239,6 +210,7 @@
   object-fit: cover;
   align-self: center;
   animation: glitch1 2.5s infinite;
+  margin: 0;
 }
 
 .eventlogo:nth-child(2) {
@@ -262,13 +234,14 @@
     opacity: 1;
   }
 }
+
 .timerContainer {
   column-gap: 2.8rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   animation: zoomm 4s;
-
+  color: rgb(193, 171, 243);
   transition: transform 0.5s;
 }
 .headingCont {
@@ -289,30 +262,14 @@
   opacity: 1;
   transform: translateX(0%) translateZ(0px);
   color: rgb(231, 180, 11);
-} /*
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 54%;
-  }
 }
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-}*/
 .slogan {
   font-family: "Oswald", sans-serif;
   font-family: "Press Start 2P", system-ui;
   font-weight: bold;
-  color: wheat;
-  margin: 3%;
+  color: #93d8fa;
+  /* color: wheat; */
+  margin: 24px 24px 50px 24px;
   text-shadow:
     5px 2px #222324,
     2px 4px #222324,
@@ -328,17 +285,23 @@
     blink-caret 0.75s step-end infinite;*/
 }
 partii:hover {
-  cursor: pointer;
+  cursor: url("../../../public/assets/cursor.png"), auto;
 }
 .timerCont {
   width: 120px;
   height: 100px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   border-radius: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: rgb(121, 9, 116);
+  background: linear-gradient(
+    180deg,
+    rgba(121, 9, 116, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .timerTime {
@@ -370,69 +333,17 @@ partii:hover {
   border: none;
   font-weight: bold;
   font-size: 15px;
-  color: black;
-  background-color: rgb(251, 112, 62);
+  color: rgb(199, 180, 244);
+  background-color: rgb(49, 23, 110);
   border-radius: 20px; /* Adjust the border-radius to your preference */
   padding: 10px;
   /* width: 100%;
   height: 100%; */
-  box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
+  box-shadow: 1px 1px 5px 1px rgb(136, 8, 187);
   animation: zoomm 4s;
-}
-
-.registerContainer {
-  margin-top: 45px;
   width: 260px;
   height: 50px;
 }
-
-/* @media (max-width: 768px) {
-  @media (max-width: 410px) {
-    .slogan {
-      font-size: 24px;
-    }
-  }
-  .wrap-timer {
-    min-width: 100%;
-    align-items: center;
-    padding-top: 70px;
-    margin-bottom: 20px;
-  }
-  .eventlogo {
-    position: absolute;
-    top: 80px;
-    z-index: -1;
-    width: 100%;
-  }
-  .slogan {
-    text-align: center;
-    margin: 0 0 30px 0;
-
-    font-size: 24px;
-    width: 90%;
-    overflow-wrap: break-word;
-    white-space: normal;
-    position: absolute;
-    top: 250px;
-    z-index: -1;
-  }
-
-  .timerContainer {
-    position: absolute;
-    top: 300px;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 90%;
-    z-index: -1;
-    margin-top: 30px;
-  }
-  .registerContainer {
-    position: absolute;
-    top: 500px;
-    z-index: -1;
-    margin-top: 80px;
-  }
-} */
 
 .b1 {
   margin: 20px 0;
@@ -440,59 +351,64 @@ partii:hover {
 .b2 {
   margin: 0;
 }
-
 @media (max-width: 768px) {
+  .eventlogo {
+    width: 700px;
+    height: 150px;
+    object-fit: cover;
+    align-self: center;
+    animation: glitch1 2.5s infinite;
+    margin-top: 80px;
+  }
+
+  .slogan {
+    font-size: 24px;
+    line-height: 1.6;
+  }
   .startingSlogan {
-    width: 70%;
+    width: 60%;
     font-family: myFont;
     color: rgb(207, 193, 189);
     font-size: 24px;
-    margin: 20px 15px 20px 15px;
-    position: absolute;
-    top: 200px;
-  }
-  .slogan {
-    font-size: 24px;
+    margin: 100px 15px 40px 15px;
+    text-align: center;
+    animation: zoomm 4s;
   }
 
   .wrap-timer {
     width: 100%;
-    height: auto;
+    /* min-height: 100vh; */
     align-items: center;
-    padding-top: 70px;
-    gap: 50px;
-    /* margin-bottom: 20px; */
+    justify-content: center;
+    margin-top: 80px;
   }
 
   .eventlogo {
-    position: absolute;
-    top: 50px;
     width: 100%;
+    height: 150px;
   }
 
   .slogan {
     text-align: center;
-    margin: 0 0 30px 0;
+    margin: 60px;
+    margin-top: 80px !important;
     font-size: 24px;
-    width: 90%;
+    width: 100%;
     overflow-wrap: break-word;
     white-space: normal;
-    position: absolute;
-    top: 250px;
   }
 
   .timerContainer {
-    position: absolute;
-    top: 300px;
     flex-wrap: wrap;
     gap: 10px;
     max-width: 90%;
-    margin-top: 30px;
+    margin-bottom: 10px;
   }
 
   .registerContainer {
-    position: absolute;
-    top: 500px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
+}
+.wrap-timer {
+  cursor: url("../../../public/assets/cursor.png"), auto !important;
 }

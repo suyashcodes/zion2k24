@@ -7,8 +7,8 @@ import { Analytics } from "@vercel/analytics/react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <>
+  <div>
     <App />
     <Analytics />
-  </>,
+  </div>,
 );

@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="logoContainer">
-          <img className="logoImg" src="assets/Devkrafttrans.png" alt="" />
+          <img className="logoImg" src="assets/zionnav.png" alt="" />
         </div>
         <div className="nav-elements">
           <ul className="sidebar">
@@ -45,7 +45,7 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                About
+                Events
               </a>
             </li>
             <li>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Domain
+                Team
               </a>
             </li>
             <li>
@@ -65,10 +65,10 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Schedule
+                Contact
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 onClick={closeSidebar}
                 href="#prizes"
@@ -77,8 +77,8 @@ const Navbar = () => {
               >
                 Prizes
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href="#sponsors"
                 onClick={closeSidebar}
@@ -87,8 +87,8 @@ const Navbar = () => {
               >
                 Sponsors
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 onClick={closeSidebar}
                 href="#team"
@@ -97,7 +97,7 @@ const Navbar = () => {
               >
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#faq"
@@ -108,7 +108,7 @@ const Navbar = () => {
                 FAQ
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#contact"
                 className="sideLinks"
@@ -117,7 +117,7 @@ const Navbar = () => {
               >
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
           <ul className="navList">
             <li>
@@ -131,7 +131,7 @@ const Navbar = () => {
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                About
+                Events
               </a>
             </li>
             <li>
@@ -140,7 +140,7 @@ const Navbar = () => {
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                Domain
+                Team
               </a>
             </li>
             <li>
@@ -149,10 +149,10 @@ const Navbar = () => {
                 className="navLinks"
                 activeClassName="activeLink"
               >
-                Schedule
+                Contact
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#prizes"
                 className="navLinks"
@@ -160,8 +160,8 @@ const Navbar = () => {
               >
                 Prizes
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href="#sponsors"
                 className="navLinks"
@@ -174,13 +174,13 @@ const Navbar = () => {
               <a href="#team" className="navLinks" activeClassName="activeLink">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#faq" className="navLinks" activeClassName="activeLink">
                 FAQ
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#contact"
                 className="navLinks"
@@ -188,7 +188,7 @@ const Navbar = () => {
               >
                 Contact
               </a>
-            </li>
+            </li> */}
             <li className="svg">
               <NavLink className="navLinks menu-btn">
                 <svg
@@ -222,23 +222,23 @@ const Navbar = () => {
                 <a href="#About">About</a>
               </li>
               <li>
-                <a href="#Schedule">Schedule</a>
+                <a href="#Schedule">Events</a>
               </li>
               <li>
-                <a href="#Prizes">Prizes</a>
+                <a href="#Prizes">Team</a>
               </li>
               <li>
-                <a href="#Sponsors">Sponsors</a>
+                <a href="#Sponsors">Contact</a>
               </li>
               <li>
                 <a href="#FAQ">FAQ</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#EventTeam">EventTeam</a>
               </li>
               <li>
                 <a href="#Contact">Contact</a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

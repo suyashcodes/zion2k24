@@ -17,14 +17,14 @@ const Home = () => {
       <Video />
       <Timer />
       {/* <Problems /> */}
-      <Aboutevent />
+      {/* <Aboutevent />
       <Domain />
       <Schedule />
       <Prizes />
       <Sponsors />
       <Eventteam />
       <Faques />
-      <Contact />
+      <Contact /> */}
     </>
   );
 };
