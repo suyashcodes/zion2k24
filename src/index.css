@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(26, 26, 21);
   overflow-x: hidden;
+  cursor: url("../public/assets/cursor.png");
+}
+.div {
+  cursor: url("../public/assets/cursor.png");
 }
 
 code {

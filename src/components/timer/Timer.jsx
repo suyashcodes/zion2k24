@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./timer.css";
-import Problems from "../problemstatements/problemstat";
-import Submission from "../submission/Submissions";
 
 const Timer = () => {
   const [timeRemaining, setTimeRemaining] = useState({
@@ -10,12 +8,9 @@ const Timer = () => {
     minutes: 0,
     seconds: 0,
   });
-  const [hackathonStarted, setHackathonStarted] = useState(false);
-  const [showProblems, setShowProblems] = useState(false);
-  const [showSubmission, setShowSubmission] = useState(false);
 
   useEffect(() => {
-    const registrationDeadline = new Date("2024-02-10T10:00:00");
+    const registrationDeadline = new Date("2024-04-02T10:00:00");
 
     const calculateTimeRemaining = () => {
       const currentTime = new Date();
@@ -42,7 +37,6 @@ const Timer = () => {
           seconds: remainingSeconds,
         });
       } else {
-        setHackathonStarted(true);
       }
     };
 
@@ -69,80 +63,50 @@ const Timer = () => {
   return (
     <div className="wrap-timer" id="home">
       <div className="headingCont">
-        <img className="eventlogo o1" src="assets/Eventtrans.png" alt="" />
-        <img className="eventlogo o2" src="assets/Eventtrans.png" alt="" />
-        <img className="eventlogo o3" src="assets/Eventtrans.png" alt="" />
+        <img className="eventlogo " src="assets/zionfinal.png" alt="" />
+        <img className="eventlogo " src="assets/zionfinal.png" alt="" />
+        <img className="eventlogo " src="assets/zionfinal.png" alt="" />
       </div>
       {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
 
-      {hackathonStarted ? (
-        <>
-          <span className="startingSlogan">
-            Hey fellow hackers! The hackathon is live and buzzing with
-            creativity. Check out the awesome projects in action – your next
-            coding adventure awaits!{" "}
-          </span>
-          <div className="buttonCont">
-            <a
-              target="_blank"
-              href="https://shorturl.at/juvLP"
-              rel="noreferrer"
-            >
-              <button className="b1">Problem Statement</button>
-            </a>
-            {/* <a
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScfqv5DpXq_rTAA-M__uAq4S8lUlgAN-_gZRdQk01Pdm-MkAg/viewform?usp=sf_link"
-              rel="noreferrer"
-            >
-              <button className="b1" disabled="true">
-                Project Submission
-              </button>
-            </a> */}
-            <button className="b2" disabled="true">
-              Project Submission
-            </button>
-            {/* <button className="b2" onClick={handleSubmissionButtonClick}>
-              Project Submission
-            </button> */}
-          </div>
-          {showProblems && <Problems />}
-          {showSubmission && <Submission />}
-        </>
-      ) : (
-        <>
-          <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1>
+      <span className="startingSlogan">
+        Zion Zion is an annual technical festival organized by Dr. D.Y. Patil
+        Institute of Technology, Pimpri, Pune, that aims to provide a platform
+        for students to showcase their technical skills and creativity.{" "}
+      </span>
 
-          <div className="timerContainer">
-            <div className="timerCont">
-              <h2 className="timerTime">{timeRemaining.days}</h2>
-              <h6 className="timerHead">DAYS</h6>
-            </div>
-            <div className="timerCont">
-              <h2 className="timerTime">{timeRemaining.hours}</h2>
-              <h6 className="timerHead">HOURS</h6>
-            </div>
-            <div className="timerCont">
-              <h2 className="timerTime">{timeRemaining.minutes}</h2>
-              <h6 className="timerHead">MINUTES</h6>
-            </div>
-            <div className="timerCont">
-              <h2 className="timerTime">{timeRemaining.seconds}</h2>
-              <h6 className="timerHead">SECONDS</h6>
-            </div>
-          </div>
-          <div className="registerContainer1">
-            <a
-              className="partii"
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdetrl2h7xCSDs7yo3NeaPh0e1Y2dFvY2o3PwrgIHZ_ILG0wQ/viewform?usp=sf_link"
-              rel="noreferrer"
-            >
-              <button className="registerButton1">Participate Now</button>
-            </a>
-          </div>
-        </>
-      )}
+      {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
+
+      <div className="timerContainer">
+        <div className="timerCont">
+          <h2 className="timerTime">{timeRemaining.days}</h2>
+          <h6 className="timerHead">DAYS</h6>
+        </div>
+        <div className="timerCont">
+          <h2 className="timerTime">{timeRemaining.hours}</h2>
+          <h6 className="timerHead">HOURS</h6>
+        </div>
+        <div className="timerCont">
+          <h2 className="timerTime">{timeRemaining.minutes}</h2>
+          <h6 className="timerHead">MINUTES</h6>
+        </div>
+        <div className="timerCont">
+          <h2 className="timerTime">{timeRemaining.seconds}</h2>
+          <h6 className="timerHead">SECONDS</h6>
+        </div>
+      </div>
+      <div className="registerContainer1">
+        <a
+          className="partii"
+          target="_blank"
+          href="https://l69mxk-3000.csb.app/"
+          rel="noreferrer"
+        >
+          <button className="b1" disabled="true">
+            Explore Event
+          </button>
+        </a>
+      </div>
     </div>
   );
 };
