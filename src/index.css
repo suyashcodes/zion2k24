@@ -9,13 +9,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(26, 26, 21);
   overflow-x: hidden;
-  cursor: url("../public/assets/cursor.png");
-}
-.div {
-  cursor: url("../public/assets/cursor.png");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/* For Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* adjust as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(189, 162, 255);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(26, 26, 21);
 }

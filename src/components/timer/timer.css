@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
   margin-bottom: 5%;
 }
 .startingSlogan {
@@ -211,6 +211,22 @@
   align-self: center;
   animation: glitch1 2.5s infinite;
   margin: 0;
+}
+.headingCont {
+  display: flex;
+  justify-content: safe;
+}
+.eventbeside {
+  width: 117px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 600px;
+}
+.a1 {
+  width: 117px;
+  height: 150px;
+  object-fit: cover;
+  /* margin-right: 600px; */
 }
 
 .eventlogo:nth-child(2) {
