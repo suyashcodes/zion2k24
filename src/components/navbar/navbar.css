@@ -1,13 +1,23 @@
 .logoImg {
-  height: 60px;
-  width: 210px;
+  height: 50px;
+  width: 50px;
   object-fit: cover;
+  margin: 0 25px 0 25px;
+}
+.logoScrolled {
+  height: 50px;
+  width: 90px;
+  object-fit: cover;
+  margin-top: 5px;
+  margin: 5px 12px 0 12px;
 }
 
 .navbar {
   height: 60px;
   width: 100%;
-  background-color: rgba(30, 0, 46, 0.9);
+
+  /* justify-content: space-between; */
+  background-color: rgba(30, 0, 46, 0.1);
   position: fixed;
   top: 0;
   margin: 0;
@@ -16,14 +26,21 @@
 
 .navLinks {
   text-decoration: none;
+  margin: 0px;
+  padding: 0px;
 }
-
+ul {
+  padding: 0;
+  margin: 0;
+}
 .container {
   height: 60px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 80px 0 80px;
+  margin-top: 0px;
+  /* margin: 0 80px 0 80px; */
 }
 
 .navList {
@@ -31,14 +48,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  height: 60px;
 }
+/* Your existing styles for the navbar */
+
+/* Add a style for the scrolled state */
+.navList.scrolled {
+  background-color: rgba(44, 39, 39, 0.963);
+  /* Add other styles as needed */
+}
+
 .navLinks {
   color: white;
   font-size: 18px;
-  margin-left: 30px;
+  margin-left: 0px;
+  margin: 0 20px 0 20px;
 }
+li:nth-child(1) {
+  margin-left: 0px;
+}
+li:nth-child(7) {
+  margin-right: 0px;
+}
+li:nth-child(4) {
+  margin: 0px;
+}
+
 .navLinks:hover {
-  color: rgb(251, 112, 62);
+  color: rgb(76, 1, 74);
 }
 .menu-btn {
   display: none;
@@ -71,9 +111,6 @@
     width: 100%;
     background-color: rgba(44, 39, 39, 0.963);
     margin-right: 0;
-  }
-  .navList {
-    align-items: flex-end;
   }
 
   .sidebar {

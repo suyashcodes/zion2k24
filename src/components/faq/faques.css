@@ -14,7 +14,7 @@
 .domain-heading {
   font-family: "myFont"; /* Replace 'myFont' with your desired font-family */
   font-size: 70px !important;
-  color: rgb(251, 112, 62);
+  color: rgb(189, 162, 255);
   text-align: center;
   margin: 40px 0;
 }
@@ -34,7 +34,7 @@
   transition:
     background-color 0.3s ease,
     transform 0.3s ease;
-  background-color: rgba(251, 112, 62, 0.2);
+  background-color: rgb(51, 36, 87, 0.4);
 }
 
 .question {
@@ -47,7 +47,8 @@
 
 .faq-item:hover {
   /* background-color: #ccc; Lighter background on hover */
-  background-color: rgba(251, 112, 62, 0.5);
+  background-color: rgb(51, 36, 87, 0.7);
+  /* background-color: rgba(251, 112, 62, 0.5); */
 }
 
 .answer {
@@ -58,11 +59,11 @@
 }
 
 .faq-item.open {
-  background-color: rgba(251, 112, 62, 0.5);
+  background-color: rgb(51, 36, 87, 0.7);
 }
 
 .faq-item.open:hover {
-  background-color: rgba(251, 112, 62, 0.5);
+  background-color: rgb(51, 36, 87, 0.7);
 }
 
 .faq-item {
