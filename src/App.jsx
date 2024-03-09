@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/home/Home";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar1";
 // import Timer from "./components/timer/Timer";
 import Video from "./components/background/Video";
 import Domain from "./components/domain/Domain";
@@ -11,6 +11,7 @@ import Schedule from "./components/schedule/Schedule";
 import Prizes from "./components/prizes/Prizes";
 import Eventteam from "./components/eventteam/Eventteam";
 import Contact from "./components/contact/Contact";
+import Events from "./components/events/Events";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -31,10 +32,13 @@ const App = () => {
         <Route path="/faq" element={<Faques />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Aboutevent />
+      <Eventteam />
+      <Events />
+      <Faques />
       {/* <Domain />
       <Prizes />
       <Sponsors />
-      <Eventteam />
       <Faques />
       <Contact /> */}
     </Router>

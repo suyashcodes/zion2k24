@@ -1,126 +1,56 @@
 .wrap-about-us {
-  width: 100%;
   padding-top: 70px;
   margin-bottom: 20px;
-}
-.eventContainer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto 0 auto;
-}
-
-.eventSection {
-  flex: 4;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  background-color: rgba(251, 112, 62, 0.1);
-  border-radius: 10px;
-
-  box-shadow: 1px 1px 5px 3px rgba(251, 112, 62, 0.3);
-  margin-right: 20px; /* Add margin to the right of each eventSection */
+  align-items: center;
 }
-
-.eventSection:last-child {
-  margin-right: 0; /* Remove margin from the last eventSection */
+@font-face {
+  font-family: myFont;
+  src: url(../../../public/assets/fonts/vtks.ttf);
 }
-
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .eventHeading {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgb(251, 112, 62);
+  font-size: 70px !important;
+  color: rgb(162, 185, 255);
+  font-family: myFont;
 }
-
+.about11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
 .eventPara {
   padding: 0 12px;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 }
 
-.eventLocationImage {
-  width: 410px;
-  height: 100%;
-  object-fit: cover; /* Adjusted to contain instead of cover */
-  border-radius: 10px;
-  opacity: 0.7; /* Adjust the opacity if needed */
-}
-
-.eventLocationAnchor {
-  margin: 0;
-  padding: 0;
-  height: 150px; /* Set the desired height */
-  /* width: auto; */
-  overflow: hidden; /* Hide any overflow to maintain container height */
-  margin: 0 0 15px 0;
-  border-radius: 10px;
-  box-shadow: 1px 1px 5px 3px rgba(251, 112, 62, 0.3);
-}
-
-.timingCont {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
-  font-size: 18px;
-  /* padding: 0 15px; */
-  position: relative;
-  left: 10px;
-  right: 15px;
-}
-
-.timingCont:last-child {
-  left: -13px;
-}
-
-.timingText {
-  color: white;
-  font-size: 16px;
-}
-
-.icon {
-  margin-right: 10px !important;
-  color: white !important;
-  font-size: 700 !important;
-}
-
-.aboutUs {
-  display: flex;
-  width: 90%;
-  height: 275px;
-  color: white;
-  margin: 20px auto 0 auto;
-}
-
-.aboutContent {
-  /* flex: 4; */
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(251, 112, 62, 0.1);
-  border-radius: 10px;
-  margin-right: 20px;
-  padding: 10px;
-
-  box-shadow: 1px 1px 5px 3px rgba(251, 112, 62, 0.3);
-  /* margin-left: 30px; */
-}
 .aboutHeading {
   font-weight: bold;
   font-size: 28px;
   margin: 0;
   padding: 0;
+  padding: 10px 0;
 
-  color: rgb(251, 112, 62);
+  color: rgb(189, 162, 255);
 }
 .aboutContent {
-  padding: 0 12px 0 12px;
+  padding: 0 14px 16px 14px;
   margin: 0;
   font-size: 16px;
+  color: white;
 }
 .aboutUsImage {
   /* width: 60%; */
@@ -130,8 +60,9 @@
   object-fit: contain;
   border-radius: 10px;
   /* opacity: 0.7; */
-  margin-left: 10px;
-  animation: logo 5s linear infinite;
+  /* margin-left: 10px; */
+  scale: 1.5;
+  /* animation: logo 5s linear infinite; */
 }
 
 @keyframes logo {

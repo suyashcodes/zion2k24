@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        <div className="logoContainer">
-          <img className="logoImg" src="assets/zionnav.png" alt="" />
-        </div>
+        {/* <div className="logoContainer">
+          <img className="logoImg" src="assets/navlogo.png" alt="" />
+        </div> */}
         <div className="nav-elements">
           <ul className="sidebar">
             <li>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Home
+                Home1
               </a>
             </li>
             <li>
@@ -122,7 +122,7 @@ const Navbar = () => {
           <ul className="navList">
             <li>
               <a href="#home" className="navLinks" activeClassName="activeLink">
-                Home
+                Home11
               </a>
             </li>
             <li>
@@ -144,6 +144,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <div className="logoContainer">
+                <img className="logoImg" src="assets/navlogo.png" alt="" />
+              </div>
+            </li>
+            <li>
               <a
                 href="#schedule"
                 className="navLinks"
@@ -152,7 +157,7 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 href="#prizes"
                 className="navLinks"
@@ -160,7 +165,7 @@ const Navbar = () => {
               >
                 Prizes
               </a>
-            </li> */}
+            </li>
             {/* <li>
               <a
                 href="#sponsors"
