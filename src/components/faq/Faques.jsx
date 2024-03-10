@@ -1,7 +1,7 @@
 // FAQSection.js
 import React, { useState, useEffect } from "react";
 import "./faques.css"; // Import your CSS file
-
+import { Fade } from "react-awesome-reveal";
 const FAQSection = () => {
   const faqData = [
     {
@@ -93,26 +93,30 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="faq-section" id="faq">
-      <div className="domain-heading">FAQ's</div>
-      <div className="faq-list">
-        {faqData.map((faq, index) => (
-          <div
-            key={index}
-            className={`faq-item ${openIndex === index ? "open" : ""}`}
-            onClick={(e) => stopPropagation(e)}
-          >
+    <Fade duration={10000}>
+      <div className="faq-section" id="faq">
+        <div className="domain-heading">FAQ's</div>
+        <div className="faq-list">
+          {faqData.map((faq, index) => (
             <div
-              className="question"
-              onClick={() => handleQuestionClick(index)}
+              key={index}
+              className={`faq-item ${openIndex === index ? "open" : ""}`}
+              onClick={(e) => stopPropagation(e)}
             >
-              {faq.question}
+              <div
+                className="question"
+                onClick={() => handleQuestionClick(index)}
+              >
+                {faq.question}
+              </div>
+              {openIndex === index && (
+                <div className="answer">{faq.answer}</div>
+              )}
             </div>
-            {openIndex === index && <div className="answer">{faq.answer}</div>}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </Fade>
   );
 };
 
