@@ -1,19 +1,13 @@
 import "./eventteam.css";
 import { BsWhatsapp, BsLinkedin } from "react-icons/bs";
-// import { Fade } from "react-awesome-reveal";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { Fade } from "react-awesome-reveal";
 const EventTeam = () => {
-  useEffect(()=>{
-    Aos.init({duration:5000});
-  })
   return (
     <div className="eventteam" id="team">
       <div className="eventteam-title">Event Team</div>
-      <div className="eventteam-container" data-aos="fade=right">
+      <div className="eventteam-container">
         <div className="eventteam-card">
-          {/* <Fade direction="top" duration={4000}> */}
+          <Fade direction="top" duration={4000}>
             <img
               className="eventteam-img"
               src="./assets/Suyash4.png"
@@ -44,7 +38,7 @@ const EventTeam = () => {
                 <BsLinkedin className="socialImg" />
               </a>
             </div>
-          {/* </Fade> */}
+          </Fade>
         </div>
       </div>
     </div>
