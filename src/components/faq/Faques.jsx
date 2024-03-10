@@ -93,7 +93,7 @@ const FAQSection = () => {
   };
 
   return (
-    <Fade duration={1000}>
+    <Fade duration={5000}>
       <div className="faq-section" id="faq">
         <div className="domain-heading">FAQ's</div>
         <div className="faq-list">
