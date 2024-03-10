@@ -1,7 +1,7 @@
 import "./aboutevent.css";
 // import googleMapImage from "../../../public/assets/fonts/map.png";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
+
+import { useEffect } from "react";
 const Aboutevent = () => {
   return (
     <div className="wrap-about-us" id="about">

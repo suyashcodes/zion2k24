@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import eventJson from "./eventdata.json";
 import "./events.css";
 import { RxDoubleArrowUp } from "react-icons/rx";
+import { Fade } from "react-awesome-reveal";
 const EventContainer = () => {
   const [showEventDetails, setShowEventDetails] = useState({});
 
@@ -22,78 +23,84 @@ const EventContainer = () => {
         <div className="eventBoxes">
           {eventJson.map((event, index) => (
             <div className="eventBox" key={index}>
-              <div className="event1">
-                <img
-                  className="eventLogo"
-                  src="./assets/actualhack.jpeg"
-                  alt="EventLogo"
-                />
-                <div className="eventCont">
-                  <h5 className="eventName">{event.eventName}</h5>
-                  <p className="eventDesc">{event.eventDescription}</p>
-                  <div className="eventButtons">
-                    {!showEventDetails[index] && (
-                      <button
-                        className="eventbt Know"
-                        onClick={() => handleKnowMoreClick(index)}
-                      >
-                        Know More
-                      </button>
-                    )}
-                    <button className="eventbt Reg">Register</button>
+              <Fade direction="down" duration={5000}>
+                <div className="event1">
+                  <img
+                    className="eventLogo"
+                    src="./assets/actualhack.jpeg"
+                    alt="EventLogo"
+                  />
+                  <div className="eventCont">
+                    <h5 className="eventName">{event.eventName}</h5>
+                    <p className="eventDesc">{event.eventDescription}</p>
+                    <div className="eventButtons">
+                      {!showEventDetails[index] && (
+                        <button
+                          className="eventbt Know"
+                          onClick={() => handleKnowMoreClick(index)}
+                        >
+                          Know More
+                        </button>
+                      )}
+                      <button className="eventbt Reg">Register</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-              {showEventDetails[index] && (
-                <div className="event2">
-                  <div className="eventd1">
-                    <div className="eventdetails edet">
-                      <h5 className="eventHead">Date & Time</h5>
-                      <p className="eventDe">
-                        {event.eventDetails.dateAndTime}
-                      </p>
+                {showEventDetails[index] && (
+                  <div className="event2">
+                    <div className="eventd1">
+                      <div className="eventdetails edet">
+                        <h5 className="eventHead">Date & Time</h5>
+                        <p className="eventDe">
+                          {event.eventDetails.dateAndTime}
+                        </p>
+                      </div>
+                      <div className="eventdetails edet">
+                        <h5 className="eventHead">Prize Pool</h5>
+                        <p className="eventDe">
+                          {event.eventDetails.prizePool}
+                        </p>
+                      </div>
+                      <div className="eventdetails edet">
+                        <h5 className="eventHead">Entry Fee</h5>
+                        <p className="eventDe">{event.eventDetails.entryFee}</p>
+                      </div>
+                      <div className="eventdetails edet">
+                        <h5 className="eventHead">Team Size</h5>
+                        <p className="eventDe">{event.eventDetails.teamSize}</p>
+                      </div>
                     </div>
-                    <div className="eventdetails edet">
-                      <h5 className="eventHead">Prize Pool</h5>
-                      <p className="eventDe">{event.eventDetails.prizePool}</p>
-                    </div>
-                    <div className="eventdetails edet">
-                      <h5 className="eventHead">Entry Fee</h5>
-                      <p className="eventDe">{event.eventDetails.entryFee}</p>
-                    </div>
-                    <div className="eventdetails edet">
-                      <h5 className="eventHead">Team Size</h5>
-                      <p className="eventDe">{event.eventDetails.teamSize}</p>
-                    </div>
-                  </div>
-                  <div className="eventd2">
-                    <div className="descr">
-                      {event.eventRounds.map((round, roundIndex) => (
-                        <div key={roundIndex}>
-                          <h5 className="eventHead">{round.roundName}</h5>
-                          <p className="eventDesc">{round.roundDescription}</p>
+                    <div className="eventd2">
+                      <div className="descr">
+                        {event.eventRounds.map((round, roundIndex) => (
+                          <div key={roundIndex}>
+                            <h5 className="eventHead">{round.roundName}</h5>
+                            <p className="eventDesc">
+                              {round.roundDescription}
+                            </p>
+                          </div>
+                        ))}
+                        <div className="eventdeFooter">
+                          <div className="eventdefooter">
+                            <h5 className="eventHead">Event Coordinators</h5>
+                            {event.eventCoordinators.map(
+                              (coordinator, coordinatorIndex) => (
+                                <p key={coordinatorIndex} className="eventDesc">
+                                  {coordinator.name} - {coordinator.phone}
+                                </p>
+                              ),
+                            )}
+                          </div>
+                          <RxDoubleArrowUp
+                            onClick={() => handleKnowMoreClick(index)}
+                            className="arrow"
+                          />
                         </div>
-                      ))}
-                      <div className="eventdeFooter">
-                        <div className="eventdefooter">
-                          <h5 className="eventHead">Event Coordinators</h5>
-                          {event.eventCoordinators.map(
-                            (coordinator, coordinatorIndex) => (
-                              <p key={coordinatorIndex} className="eventDesc">
-                                {coordinator.name} - {coordinator.phone}
-                              </p>
-                            ),
-                          )}
-                        </div>
-                        <RxDoubleArrowUp
-                          onClick={() => handleKnowMoreClick(index)}
-                          className="arrow"
-                        />
                       </div>
                     </div>
                   </div>
-                </div>
-              )}
+                )}
+              </Fade>
             </div>
           ))}
         </div>
