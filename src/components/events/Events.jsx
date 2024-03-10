@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import eventJson from "./eventdata.json";
 import "./events.css";
 import { RxDoubleArrowUp } from "react-icons/rx";
