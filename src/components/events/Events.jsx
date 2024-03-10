@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import eventJson from "./eventdata.json";
 import "./events.css";
 import { RxDoubleArrowUp } from "react-icons/rx";
-import { Fade } from "react-awesome-reveal";
 const EventContainer = () => {
   const [showEventDetails, setShowEventDetails] = useState({});
 
@@ -23,7 +22,6 @@ const EventContainer = () => {
         <div className="eventBoxes">
           {eventJson.map((event, index) => (
             <div className="eventBox" key={index}>
-              <Fade direction="down" duration={5000}>
                 <div className="event1">
                   <img
                     className="eventLogo"
@@ -100,7 +98,6 @@ const EventContainer = () => {
                     </div>
                   </div>
                 )}
-              </Fade>
             </div>
           ))}
         </div>
