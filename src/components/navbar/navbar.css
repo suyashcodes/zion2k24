@@ -57,7 +57,7 @@ ul {
 
 /* Add a style for the scrolled state */
 .navList.scrolled {
-  background-color: rgba(44, 39, 39, 0.963);
+  background-color: rgba(21, 14, 38, 0.963);
   /* Add other styles as needed */
 }
 
@@ -105,7 +105,7 @@ li:nth-child(4) {
   }
   .container {
     width: 100%;
-    background-color: rgba(44, 39, 39, 0.963);
+    background-color: rgba(21, 14, 38, 0.963);
     margin-right: 0;
   }
 
@@ -121,7 +121,7 @@ li:nth-child(4) {
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(44, 39, 39, 0.963);
+    background-color: rgba(21, 14, 38, 0.963);
     display: none;
     flex-direction: column;
     align-items: flex-start;
