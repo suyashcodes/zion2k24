@@ -10,9 +10,6 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        {/* <div className="logoContainer">
-          <img className="logoImg" src="assets/navlogo.png" alt="" />
-        </div> */}
         <div className="nav-elements">
           <ul className="sidebar">
             <li>
@@ -35,7 +32,7 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Home1
+                Home
               </a>
             </li>
             <li>
@@ -45,7 +42,7 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Events
+                About
               </a>
             </li>
             <li>
@@ -55,40 +52,10 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Team
+                Events
               </a>
             </li>
             <li>
-              <a
-                href="#schedule"
-                onClick={closeSidebar}
-                className="sideLinks"
-                activeClassName="activeLink"
-              >
-                Contact
-              </a>
-            </li>
-            {/* <li>
-              <a
-                onClick={closeSidebar}
-                href="#prizes"
-                className="sideLinks"
-                activeClassName="activeLink"
-              >
-                Prizes
-              </a>
-            </li> */}
-            {/* <li>
-              <a
-                href="#sponsors"
-                onClick={closeSidebar}
-                className="sideLinks"
-                activeClassName="activeLink"
-              >
-                Sponsors
-              </a>
-            </li> */}
-            {/* <li>
               <a
                 onClick={closeSidebar}
                 href="#team"
@@ -97,7 +64,17 @@ const Navbar = () => {
               >
                 Team
               </a>
-            </li> */}
+            </li>
+            <li>
+              <a
+                href="#contact"
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Content
+              </a>
+            </li>
             <li>
               <a
                 href="#faq"
@@ -108,16 +85,6 @@ const Navbar = () => {
                 FAQ
               </a>
             </li>
-            {/* <li>
-              <a
-                href="#contact"
-                className="sideLinks"
-                onClick={closeSidebar}
-                activeClassName="activeLink"
-              >
-                Contact
-              </a>
-            </li> */}
           </ul>
           <ul className="navList">
             <li>
@@ -166,34 +133,11 @@ const Navbar = () => {
                 Prizes
               </a>
             </li>
-            {/* <li>
-              <a
-                href="#sponsors"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                Sponsors
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="navLinks" activeClassName="activeLink">
-                Team
-              </a>
-            </li> */}
             <li>
               <a href="#faq" className="navLinks" activeClassName="activeLink">
                 FAQ
               </a>
             </li>
-            {/* <li>
-              <a
-                href="#contact"
-                className="navLinks"
-                activeClassName="activeLink"
-              >
-                Contact
-              </a>
-            </li> */}
             <li className="svg">
               <NavLink className="navLinks menu-btn">
                 <svg
@@ -238,12 +182,6 @@ const Navbar = () => {
               <li>
                 <a href="#FAQ">FAQ</a>
               </li>
-              {/* <li>
-                <a href="#EventTeam">EventTeam</a>
-              </li>
-              <li>
-                <a href="#Contact">Contact</a>
-              </li> */}
             </ul>
           </nav>
         </div>
