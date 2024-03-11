@@ -22,7 +22,7 @@ const EventContainer = () => {
           <div className="domainHeading">EVENTS</div>
         </div>
         <div className="eventBoxes">
-          <Fade direction="top" duration={5000}>
+          <Fade direction="bottom" duration={2000}>
           {eventJson.map((event, index) => (
             <div className="eventBox" key={index}>
                 <div className="event1">
