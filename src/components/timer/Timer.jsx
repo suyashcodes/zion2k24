@@ -63,9 +63,13 @@ const Timer = () => {
   return (
     <div className="wrap-timer" id="home">
       <div className="headingCont">
+        <img className="a1 " src="assets/zionatimer3.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" />
+        <img className="eventbeside " src="assets/zionatimer2.png" alt="" />
+        {/* <img className="eventlogo " src="assets/zionfinal.png" alt="" />
+        <img className="eventlogo " src="assets/zionfinal.png" alt="" /> */}
       </div>
       {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
 
