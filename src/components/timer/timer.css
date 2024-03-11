@@ -25,7 +25,7 @@
   font-family: myFont;
   color: rgb(207, 193, 189);
   font-size: 24px;
-  margin: 50px 15px 40px 15px;
+  margin: 40px 15px 30px 15px;
   text-align: center;
   animation: zoomm 4s;
 }
@@ -359,6 +359,16 @@ partii:hover {
   animation: zoomm 4s;
   width: 260px;
   height: 50px;
+}
+.dayshours {
+  display: flex;
+  flex-direction: row;
+  gap: 2.8rem;
+}
+.minutesseconds {
+  display: flex;
+  flex-direction: row;
+  gap: 2.8rem;
 }
 
 .b1 {
