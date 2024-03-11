@@ -81,37 +81,7 @@ const Navbar = () => {
                 className="sideLinks"
                 activeClassName="activeLink"
               >
-                Domain
-              </a>
-            </li>
-            <li>
-              <a
-                href="#schedule"
-                onClick={closeSidebar}
-                className="sideLinks"
-                activeClassName="activeLink"
-              >
-                Schedule
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={closeSidebar}
-                href="#prizes"
-                className="sideLinks"
-                activeClassName="activeLink"
-              >
-                Prizes
-              </a>
-            </li>
-            <li>
-              <a
-                href="#sponsors"
-                onClick={closeSidebar}
-                className="sideLinks"
-                activeClassName="activeLink"
-              >
-                Sponsors
+                Events
               </a>
             </li>
             <li>
