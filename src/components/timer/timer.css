@@ -415,7 +415,8 @@ partii:hover {
   }
 
   .timerContainer {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     max-width: 90%;
     margin-bottom: 10px;
@@ -423,6 +424,16 @@ partii:hover {
 
   .registerContainer {
     margin-top: 20px;
+  }
+  .dayshours {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .minutesseconds {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
 }
 .wrap-timer {

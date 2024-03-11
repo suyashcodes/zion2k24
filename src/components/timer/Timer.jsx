@@ -82,21 +82,25 @@ const Timer = () => {
       {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
 
       <div className="timerContainer">
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.days}</h2>
-          <h6 className="timerHead">DAYS</h6>
+        <div className="dayshours">
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.days}</h2>
+            <h6 className="timerHead">DAYS</h6>
+          </div>
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.hours}</h2>
+            <h6 className="timerHead">HOURS</h6>
+          </div>
         </div>
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.hours}</h2>
-          <h6 className="timerHead">HOURS</h6>
-        </div>
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.minutes}</h2>
-          <h6 className="timerHead">MINUTES</h6>
-        </div>
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.seconds}</h2>
-          <h6 className="timerHead">SECONDS</h6>
+        <div className="minutesseconds">
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.minutes}</h2>
+            <h6 className="timerHead">MINUTES</h6>
+          </div>
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.seconds}</h2>
+            <h6 className="timerHead">SECONDS</h6>
+          </div>
         </div>
       </div>
       <div className="registerContainer1">

@@ -80,17 +80,10 @@ li:nth-child(4) {
 .navLinks:hover {
   color: rgb(76, 1, 74);
 }
-.menu-btn {
+.showSidebar {
   display: none;
 }
 .sidebar {
-  display: none;
-}
-.sidebar li {
-  list-style-type: none;
-  color: white;
-}
-.close-btn {
   display: none;
 }
 
@@ -101,8 +94,11 @@ li:nth-child(4) {
   .navLinks {
     display: none;
   }
-  .menu-btn {
+  .showSidebar {
     display: flex;
+    position: fixed;
+    right: 0px;
+    margin-right: 25px;
   }
   .close-btn {
     display: flex;
@@ -148,5 +144,11 @@ li:nth-child(4) {
   }
   .svg {
     margin-right: 25px;
+  }
+  .eventlogo {
+    margin-top: 0px;
+  }
+  .startingSlogan {
+    margin-top: 0px;
   }
 }
