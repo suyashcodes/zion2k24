@@ -14,7 +14,7 @@ const EventTeam = () => {
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Suyash Dashputre</h2>
-            <p className="eventteam-position">Techncal Lead</p>
+            <p className="eventteam-position">Technical Lead</p>
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
