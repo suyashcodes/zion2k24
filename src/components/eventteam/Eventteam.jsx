@@ -7,7 +7,7 @@ const EventTeam = () => {
       <div className="eventteam-title">Event Team</div>
       <div className="eventteam-container">
         <div className="eventteam-card">
-          <Fade direction="top" duration={4000}>
+          <Fade direction="top" duration={2000}>
             <img
               className="eventteam-img"
               src="./assets/Suyash4.png"

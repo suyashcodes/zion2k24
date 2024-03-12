@@ -12,6 +12,7 @@ import Prizes from "./components/prizes/Prizes";
 import Eventteam from "./components/eventteam/Eventteam";
 import Contact from "./components/contact/Contact";
 import Events from "./components/events/Events";
+import Footer from "./components/footer/Footer";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -36,6 +37,7 @@ const App = () => {
       <Eventteam />
       <Events />
       <Faques />
+      <Footer/>
       {/* <Domain />
       <Prizes />
       <Sponsors />

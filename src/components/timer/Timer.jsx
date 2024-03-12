@@ -63,11 +63,11 @@ const Timer = () => {
   return (
     <div className="wrap-timer" id="home">
       <div className="headingCont">
-        <img className="a1 " src="assets/zionatimer3.png" alt="" />
+        <img className="a1 animleft" src="assets/zionatimer3.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" />
-        <img className="eventbeside " src="assets/zionatimer2.png" alt="" />
+        <img className="eventbeside animright" src="assets/zionatimer2.png" alt="" />
         {/* <img className="eventlogo " src="assets/zionfinal.png" alt="" />
         <img className="eventlogo " src="assets/zionfinal.png" alt="" /> */}
       </div>
@@ -103,17 +103,12 @@ const Timer = () => {
           </div>
         </div>
       </div>
-      <div className="registerContainer1">
-        <a
-          className="partii"
-          target="_blank"
-          href="https://l69mxk-3000.csb.app/"
-          rel="noreferrer"
-        >
-          <button className="b1" disabled="true">
-            Explore Event
-          </button>
-        </a>
+      <div class="wrapper">
+        <div class="box">
+          Explore Events
+        </div>
+
+
       </div>
     </div>
   );

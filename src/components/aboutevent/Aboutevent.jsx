@@ -1,15 +1,17 @@
 import "./aboutevent.css";
 // import googleMapImage from "../../../public/assets/fonts/map.png";
 
-import { useEffect } from "react";
+import { Fade } from "react-awesome-reveal";
 const Aboutevent = () => {
   return (
     <div className="wrap-about-us" id="about">
       <div className="eventHead">
         <p className="eventHeading">About</p>
       </div>
+
       <div className="aboutContainer">
         <div className="about1">
+      <Fade direction="bottom" duration={2000}>
           <div className="about11">
             <span className="aboutHeading">Zion</span>
             <span className="aboutContent">
@@ -28,7 +30,10 @@ const Aboutevent = () => {
               creativity.
             </span>
           </div>
+          </Fade>
         </div>
+        <Fade direction="bottom" duration={2000}>
+
         <div className="aboutImg">
           <img
             className="aboutUsImage"
@@ -36,7 +41,9 @@ const Aboutevent = () => {
             alt="Google Map showing event location"
           />
         </div>
+        </Fade>
         <div className="about1">
+        <Fade direction="bottom" duration={2000}>
           <div className="about11">
             <span className="aboutHeading">Zion</span>
             <span className="aboutContent">
@@ -55,6 +62,7 @@ const Aboutevent = () => {
               creativity.
             </span>
           </div>
+        </Fade>
         </div>
       </div>
     </div>
