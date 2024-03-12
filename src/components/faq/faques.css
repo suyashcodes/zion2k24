@@ -47,7 +47,7 @@
 
 .faq-item:hover {
   /* background-color: #ccc; Lighter background on hover */
-  background-color: rgb(51, 36, 87, 0.7);
+  background-color: rgb(21, 14, 38);
   /* background-color: rgba(251, 112, 62, 0.5); */
 }
 
@@ -59,11 +59,11 @@
 }
 
 .faq-item.open {
-  background-color: rgb(51, 36, 87, 0.7);
+    background-color: rgb(21, 14, 38);
 }
 
 .faq-item.open:hover {
-  background-color: rgb(51, 36, 87, 0.7);
+    background-color: rgb(21, 14, 38);
 }
 
 .faq-item {

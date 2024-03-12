@@ -7,14 +7,14 @@ const EventTeam = () => {
       <div className="eventteam-title">Event Team</div>
       <div className="eventteam-container">
         <div className="eventteam-card">
-          <Fade direction="top" duration={4000}>
+          <Fade direction="top" duration={2000}>
             <img
               className="eventteam-img"
               src="./assets/Suyash4.png"
               alt="Team Member 1"
             />
-            <h2 className="eventteam-name">Lorem Ipsum</h2>
-            <p className="eventteam-position">PRESIDENT</p>
+            <h2 className="eventteam-name">Suyash Dashputre</h2>
+            <p className="eventteam-position">Technical Lead</p>
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
