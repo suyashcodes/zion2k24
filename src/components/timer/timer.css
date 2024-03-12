@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Press+Start+2P&family=Ubuntu&display=swap");
 
-
 @keyframes rotateVertical {
   0% {
     transform: rotateY(0deg);
@@ -445,22 +444,20 @@ partii:hover {
 }
 @import url("https://fonts.googleapis.com/css?family=Raleway:400");
 
-
-
 @property --angle {
-  syntax: '<angle>';
+  syntax: "<angle>";
   initial-value: 90deg;
   inherits: true;
 }
 
 @property --gradX {
-  syntax: '<percentage>';
+  syntax: "<percentage>";
   initial-value: 50%;
   inherits: true;
 }
 
 @property --gradY {
-  syntax: '<percentage>';
+  syntax: "<percentage>";
   initial-value: 0%;
   inherits: true;
 }
@@ -480,22 +477,22 @@ partii:hover {
 } */
 
 p {
-	margin: 0;
+  margin: 0;
 }
 
 :root {
-	--d: 2500ms;
-	--angle: 90deg;
-	--gradX: 100%;
-	--gradY: 50%;
-	--c1: rgba(168, 239, 255, 1);
-	--c2: rgba(168, 239, 255, 0.1);
+  --d: 2500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --c1: rgba(168, 239, 255, 1);
+  --c2: rgba(168, 239, 255, 0.1);
 }
 
 .wrapper {
-	height: 50px;
+  height: 50px;
 }
-.wrapper{
+.wrapper {
   margin-top: 45px;
   width: 100%;
   display: flex;
@@ -506,58 +503,82 @@ p {
 }
 
 .box {
-	/* font-size: 3vw;
+  /* font-size: 3vw;
 	margin: max(1rem, 3vw); */
-	border: 4px solid;
+  border: 4px solid;
   border-radius: 10px;
   font-family: "Oswald", sans-serif;
   font-family: "Press Start 2P", system-ui;
   font-weight: bold;
   font-size: 15px;
   color: rgb(199, 180, 244);
+  cursor: pointer;
   /* background-color: rgb(49, 23, 110); */
   padding: 10px;
+  text-align: center;
   /* width: 100%;
   height: 100%; */
   /* box-shadow: 1px 1px 5px 1px rgb(136, 8, 187); */
   animation: zoomm 4s;
   width: 260px;
   height: 50px;
-	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
-	border-radius: 10px;
+  border-image: conic-gradient(
+      from var(--angle),
+      var(--c2),
+      var(--c1) 0.1turn,
+      var(--c1) 0.15turn,
+      var(--c2) 0.25turn
+    )
+    30;
+  border-radius: 10px;
   animation: borderRotate var(--d) linear infinite forwards;
+}
+.box p {
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.box a {
+  text-decoration: none;
 }
 
 .box:nth-child(2) {
-	border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
-	animation: borderRadial var(--d) linear infinite forwards;
+  border-image: radial-gradient(
+      ellipse at var(--gradX) var(--gradY),
+      var(--c1),
+      var(--c1) 10%,
+      var(--c2) 40%
+    )
+    30;
+  animation: borderRadial var(--d) linear infinite forwards;
 }
 
 @keyframes borderRotate {
-	100% {
-		--angle: 420deg;
-	}
+  100% {
+    --angle: 420deg;
+  }
 }
 
 @keyframes borderRadial {
-	20% {
-		--gradX: 100%;
-		--gradY: 50%;
-	}
-	40% {
-		--gradX: 100%;
-		--gradY: 100%;
-	}
-	60% {
-		--gradX: 50%;
-		--gradY: 100%;
-	}
-	80% {
-		--gradX: 0%;
-		--gradY: 50%;
-	}
-	100% {
-		--gradX: 50%;
-		--gradY: 0%;
-	}
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
 }
