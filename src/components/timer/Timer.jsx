@@ -101,7 +101,7 @@ const Timer = () => {
       </div>
       <div class="wrapper">
         <div class="box">
-          <a href="#domain">
+          <a href="#events">
             <p>Explore Events</p>
           </a>
         </div>

@@ -33,11 +33,11 @@ const App = () => {
         <Route path="/faq" element={<Faques />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-{/*       <Aboutevent />
+      <Aboutevent />
       <Eventteam />
       <Events />
       <Faques />
-      <Footer/> */}
+      <Footer/> 
       {/* <Domain />
       <Prizes />
       <Sponsors />

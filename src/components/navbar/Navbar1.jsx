@@ -76,7 +76,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#domain"
+                href="#events"
                 onClick={closeSidebar}
                 className="sideLinks"
                 activeClassName="activeLink"
@@ -132,7 +132,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#domain"
+                href="#events"
                 className="navLinks"
                 activeClassName="activeLink"
               >

@@ -479,6 +479,9 @@ partii:hover {
 p {
   margin: 0;
 }
+.box p{
+  color: #93d8fa;
+}
 
 :root {
   --d: 2500ms;
@@ -514,7 +517,7 @@ p {
   color: rgb(199, 180, 244);
   cursor: pointer;
   /* background-color: rgb(49, 23, 110); */
-  padding: 10px;
+  padding: 4px;
   text-align: center;
   /* width: 100%;
   height: 100%; */

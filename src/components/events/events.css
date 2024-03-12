@@ -181,6 +181,9 @@
   margin: 0;
   padding: 0;
 }
+.event1{
+  margin-bottom: 0px;
+}
 @media (max-width: 768px) {
   .eventBox {
     width: 85%;
@@ -252,5 +255,8 @@
   }
   .eventBoxes {
     gap: 2.8rem;
+  }
+  .event1{
+    margin-bottom: 0px;
   }
 }

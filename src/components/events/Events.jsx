@@ -17,7 +17,7 @@ const EventContainer = () => {
 
   return (
     <>
-      <div className="wrap-domain" id="domain">
+      <div className="wrap-domain" id="events">
         <div>
           <div className="domainHeading">EVENTS</div>
         </div>
@@ -28,7 +28,7 @@ const EventContainer = () => {
                 <div className="event1">
                   <img
                     className="eventLogo"
-                    src="./assets/actualhack.jpeg"
+                    src="./assets/eventcardimg2.png"
                     alt="EventLogo"
                   />
                   <div className="eventCont">
