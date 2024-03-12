@@ -74,7 +74,7 @@ const Timer = () => {
       {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
 
       <span className="startingSlogan">
-        Zion Zion is an annual technical festival organized by Dr. D.Y. Patil
+        Zion is an annual technical festival organized by Dr. D.Y. Patil
         Institute of Technology, Pimpri, Pune, that aims to provide a platform
         for students to showcase their technical skills and creativity.{" "}
       </span>
@@ -82,21 +82,25 @@ const Timer = () => {
       {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
 
       <div className="timerContainer">
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.days}</h2>
-          <h6 className="timerHead">DAYS</h6>
+        <div className="dayshours">
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.days}</h2>
+            <h6 className="timerHead">DAYS</h6>
+          </div>
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.hours}</h2>
+            <h6 className="timerHead">HOURS</h6>
+          </div>
         </div>
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.hours}</h2>
-          <h6 className="timerHead">HOURS</h6>
-        </div>
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.minutes}</h2>
-          <h6 className="timerHead">MINUTES</h6>
-        </div>
-        <div className="timerCont">
-          <h2 className="timerTime">{timeRemaining.seconds}</h2>
-          <h6 className="timerHead">SECONDS</h6>
+        <div className="minutesseconds">
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.minutes}</h2>
+            <h6 className="timerHead">MINUTES</h6>
+          </div>
+          <div className="timerCont">
+            <h2 className="timerTime">{timeRemaining.seconds}</h2>
+            <h6 className="timerHead">SECONDS</h6>
+          </div>
         </div>
       </div>
       <div class="wrapper">
