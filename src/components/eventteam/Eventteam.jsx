@@ -13,8 +13,8 @@ const EventTeam = () => {
               src="./assets/Suyash4.png"
               alt="Team Member 1"
             />
-            <h2 className="eventteam-name">Lorem Ipsum</h2>
-            <p className="eventteam-position">PRESIDENT</p>
+            <h2 className="eventteam-name">Suyash Dashputre</h2>
+            <p className="eventteam-position">Techncal LEad</p>
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
