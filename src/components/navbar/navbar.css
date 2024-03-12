@@ -57,7 +57,7 @@ ul {
 
 /* Add a style for the scrolled state */
 .navList.scrolled {
-  background-color: rgba(44, 39, 39, 0.963);
+  background-color: rgba(21, 14, 38, 0.963);
   /* Add other styles as needed */
 }
 
@@ -80,17 +80,10 @@ li:nth-child(4) {
 .navLinks:hover {
   color: rgb(76, 1, 74);
 }
-.menu-btn {
+.showSidebar {
   display: none;
 }
 .sidebar {
-  display: none;
-}
-.sidebar li {
-  list-style-type: none;
-  color: white;
-}
-.close-btn {
   display: none;
 }
 
@@ -101,15 +94,18 @@ li:nth-child(4) {
   .navLinks {
     display: none;
   }
-  .menu-btn {
+  .showSidebar {
     display: flex;
+    position: fixed;
+    right: 0px;
+    margin-right: 25px;
   }
   .close-btn {
     display: flex;
   }
   .container {
     width: 100%;
-    background-color: rgba(44, 39, 39, 0.963);
+    background-color: rgba(21, 14, 38, 0.963);
     margin-right: 0;
   }
 
@@ -125,7 +121,7 @@ li:nth-child(4) {
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(44, 39, 39, 0.963);
+    background-color: rgba(21, 14, 38, 0.963);
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -146,7 +142,13 @@ li:nth-child(4) {
     text-decoration: none;
     color: white;
   }
-  .svg {
+  svg {
     margin-right: 25px;
+  }
+  .eventlogo {
+    margin-top: 0px;
+  }
+  .startingSlogan {
+    margin-top: 0px;
   }
 }
