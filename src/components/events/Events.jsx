@@ -28,7 +28,7 @@ const EventContainer = () => {
                 <div className="event1">
                   <img
                     className="eventLogo"
-                    src="./assets/eventcardimg2.png"
+                    src={event.img}
                     alt="EventLogo"
                   />
                   <div className="eventCont">
@@ -43,7 +43,7 @@ const EventContainer = () => {
                           Know More
                         </button>
                       )}
-                      <a href="https://forms.gle/heSV24w3RxNoAWai9" target="_blank">
+                      <a href={event.gform} target="_blank">
                       <button className="eventbt Reg">Register</button>
                       </a>
                     </div>
