@@ -17,7 +17,7 @@ const EventContainer = () => {
 
   return (
     <>
-      <div className="wrap-domain" id="domain">
+      <div className="wrap-domain" id="events">
         <div>
           <div className="domainHeading">EVENTS</div>
         </div>
@@ -28,7 +28,7 @@ const EventContainer = () => {
                 <div className="event1">
                   <img
                     className="eventLogo"
-                    src="./assets/actualhack.jpeg"
+                    src={event.img}
                     alt="EventLogo"
                   />
                   <div className="eventCont">
@@ -43,7 +43,9 @@ const EventContainer = () => {
                           Know More
                         </button>
                       )}
+                      <a href={event.gform} target="_blank" rel="noreferrer">
                       <button className="eventbt Reg">Register</button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -56,12 +58,12 @@ const EventContainer = () => {
                           {event.eventDetails.dateAndTime}
                         </p>
                       </div>
-                      <div className="eventdetails edet">
+                      {/* <div className="eventdetails edet">
                         <h5 className="eventHead">Prize Pool</h5>
                         <p className="eventDe">
                           {event.eventDetails.prizePool}
                         </p>
-                      </div>
+                      </div> */}
                       <div className="eventdetails edet">
                         <h5 className="eventHead">Entry Fee</h5>
                         <p className="eventDe">{event.eventDetails.entryFee}</p>

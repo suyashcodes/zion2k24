@@ -101,10 +101,10 @@ const Timer = () => {
       </div>
       <div class="wrapper">
         <div class="box">
-          Explore Events
+          <a href="#events">
+            <p>Explore Events</p>
+          </a>
         </div>
-
-
       </div>
     </div>
   );

@@ -40,6 +40,81 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="nav-elements">
+          <ul className="sidebar">
+            <li>
+              <svg
+                className="close-btn"
+                onClick={closeSidebar}
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                viewBox="0 -960 960 960"
+                width="30"
+                fill="white"
+              >
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+              </svg>
+            </li>
+            <li>
+              <a
+                onClick={closeSidebar}
+                href="#home"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={closeSidebar}
+                href="#about"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#events"
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Events
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={closeSidebar}
+                href="#team"
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                Team
+              </a>
+            </li>
+            <li>
+              <a
+                href="#faq"
+                onClick={closeSidebar}
+                className="sideLinks"
+                activeClassName="activeLink"
+              >
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="sideLinks"
+                onClick={closeSidebar}
+                activeClassName="activeLink"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
           <ul className={`navList ${scrolled ? "scrolled" : ""}`}>
             <li>
               <a href="#home" className="navLinks" activeClassName="activeLink">
@@ -57,7 +132,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#domain"
+                href="#events"
                 className="navLinks"
                 activeClassName="activeLink"
               >
@@ -92,6 +167,18 @@ const Navbar = () => {
               <a href="#faq" className="navLinks" activeClassName="activeLink">
                 FAQ
               </a>
+            </li>
+            <li className="showSidebar">
+              <svg
+                onClick={showSidebar}
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                viewBox="0 -960 960 960"
+                width="30"
+                fill="white"
+              >
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+              </svg>
             </li>
           </ul>
         </div>

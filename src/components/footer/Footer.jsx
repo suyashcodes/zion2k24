@@ -10,6 +10,7 @@ const Footer = ()=>{
                 Zion is a highly anticipated annual event that attracts participants from various colleges and universities across India to showcase their technical skills and innovative ideas. The festival provides a platform for students to learn, grow, and network with like-minded individuals in a competitive yet fun environment.
                 </span>
             </div>
+
             <div className="footer2">
 
             <div className="footertwo">
@@ -19,6 +20,7 @@ const Footer = ()=>{
                     <li className="links">About</li>
                     <li className="links">Events</li>
                     <li className="links">Team</li>
+                    <li className="links">FAQ</li>
                 </ul>
             </div>
             <div className="footerthree">
@@ -26,15 +28,16 @@ const Footer = ()=>{
                 <ul className="quicklinks">
                     <li className="links">Instagram</li>
                     <li className="links">Linkedin</li>
-                    <li className="links">Mail</li>
+                    <li className="links">EMail</li>
                     <li className="links">Whatsapp</li>
+                    <li className="links">Github</li>
                 </ul>
             </div>
             </div>
         </div>
         <div className="copyright">
             <span className="text">
-                Designed and Developed By Devkraft&copy 2024
+                Designed and Developed By ZION &copy; 2024
             </span>
         </div>
         </>
