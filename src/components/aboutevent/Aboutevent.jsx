@@ -11,7 +11,7 @@ const Aboutevent = () => {
 
       <div className="aboutContainer">
         <div className="about1">
-      <Fade direction="bottom" duration={2000}>
+      <Fade direction="bottom" duration={2000} triggerOnce="true">
           <div className="about11">
             <span className="aboutHeading">Zion</span>
             <span className="aboutContent">
