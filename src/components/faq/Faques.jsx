@@ -5,65 +5,65 @@ import { Fade } from "react-awesome-reveal";
 const FAQSection = () => {
   const faqData = [
     {
-      question: "What if I don't know how to code?",
+      question: "What if I don't know how to walk?",
       answer:
         "No worries, interest in learning and working with technology is much more important than your current experience level.",
-    },
-    {
-      question: "How much will it cost?",
-      answer:
-        "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
-    },
-    {
-      question: "What if I don't know how to code?",
-      answer:
-        "No worries, interest in learning and working with technology is much more important than your current experience level.",
-    },
-    {
-      question: "How much will it cost?",
-      answer:
-        "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
-    },
-    {
-      question: "What if I don't know how to code?",
-      answer:
-        "No worries, interest in learning and working with technology is much more important than your current experience level.",
-    },
-    {
-      question: "How much will it cost?",
-      answer:
-        "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
-    },
-    {
-      question: "What if I don't know how to code?",
-      answer:
-        "No worries, interest in learning and working with technology is much more important than your current experience level.",
-    },
-    {
-      question: "How much will it cost?",
-      answer:
-        "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
-    },
-    {
-      question: "What if I don't know how to code?",
-      answer:
-        "No worries, interest in learning and working with technology is much more important than your current experience level.",
-    },
-    {
-      question: "How much will it cost?",
-      answer:
-        "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
-    },
-    {
-      question: "What if I don't know how to code?",
-      answer:
-        "No worries, interest in learning and working with technology is much more important than your current experience level.",
-    },
-    {
-      question: "How much will it cost?",
-      answer:
-        "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
-    },
+    }
+    // {
+    //   question: "How much will it cost?",
+    //   answer:
+    //     "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
+    // },
+    // {
+    //   question: "What if I don't know how to code?",
+    //   answer:
+    //     "No worries, interest in learning and working with technology is much more important than your current experience level.",
+    // },
+    // {
+    //   question: "How much will it cost?",
+    //   answer:
+    //     "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
+    // },
+    // {
+    //   question: "What if I don't know how to code?",
+    //   answer:
+    //     "No worries, interest in learning and working with technology is much more important than your current experience level.",
+    // },
+    // {
+    //   question: "How much will it cost?",
+    //   answer:
+    //     "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
+    // },
+    // {
+    //   question: "What if I don't know how to code?",
+    //   answer:
+    //     "No worries, interest in learning and working with technology is much more important than your current experience level.",
+    // },
+    // {
+    //   question: "How much will it cost?",
+    //   answer:
+    //     "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
+    // },
+    // {
+    //   question: "What if I don't know how to code?",
+    //   answer:
+    //     "No worries, interest in learning and working with technology is much more important than your current experience level.",
+    // },
+    // {
+    //   question: "How much will it cost?",
+    //   answer:
+    //     "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
+    // },
+    // {
+    //   question: "What if I don't know how to code?",
+    //   answer:
+    //     "No worries, interest in learning and working with technology is much more important than your current experience level.",
+    // },
+    // {
+    //   question: "How much will it cost?",
+    //   answer:
+    //     "Registration completely free, but we are charging only 200Rs for hospitality and meals.",
+    // },
     // Add more dummy questions and answers as needed
   ];
 
