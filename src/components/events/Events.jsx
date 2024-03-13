@@ -56,12 +56,12 @@ const EventContainer = () => {
                           {event.eventDetails.dateAndTime}
                         </p>
                       </div>
-                      <div className="eventdetails edet">
+                      {/* <div className="eventdetails edet">
                         <h5 className="eventHead">Prize Pool</h5>
                         <p className="eventDe">
                           {event.eventDetails.prizePool}
                         </p>
-                      </div>
+                      </div> */}
                       <div className="eventdetails edet">
                         <h5 className="eventHead">Entry Fee</h5>
                         <p className="eventDe">{event.eventDetails.entryFee}</p>
