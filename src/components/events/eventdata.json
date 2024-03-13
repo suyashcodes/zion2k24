@@ -11,11 +11,15 @@
     "eventRounds": [
       {
         "roundName": "Round 1",
-        "roundDescription": "Participants engage with raw data. Their task involves conducting Exploratory Data Analysis (EDA) to uncover meaningful insights. Following this analysis, participants are required to make a PowerPoint presentation to effectively convey their findings and conclusions."
+        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
       },
       {
         "roundName": "Round 2",
-        "roundDescription": "Participants engage with raw data. Their task involves conducting Exploratory Data Analysis (EDA) to uncover meaningful insights. Following this analysis, participants are required to make a PowerPoint presentation to effectively convey their findings and conclusions."
+        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+      },
+      {
+        "roundName": "Round 2",
+        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
       }
     ],
     "eventCoordinators": [
@@ -24,13 +28,13 @@
         "phone": "9922026188"
       },
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
+        "name": "Vedant Patil",
+        "phone": "7057523666"
       }
     ]
   },
   {
-    "eventName": "Cad War",
+    "eventName": "HOVR",
     "eventDescription": "Tech Feud is a 3-round Technical Quiz which is based on the popular TV show “Family Feud” but with technical questions. Two teams would compete against each other with technical questions, the team to press the buzzer in front of them first, would answer the asked question first.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
@@ -41,21 +45,25 @@
     "eventRounds": [
       {
         "roundName": "Round 1",
-        "roundDescription": "Participants engage with raw data. Their task involves conducting Exploratory Data Analysis (EDA) to uncover meaningful insights. Following this analysis, participants are required to make a PowerPoint presentation to effectively convey their findings and conclusions."
+        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
       },
       {
         "roundName": "Round 2",
-        "roundDescription": "Participants engage with raw data. Their task involves conducting Exploratory Data Analysis (EDA) to uncover meaningful insights. Following this analysis, participants are required to make a PowerPoint presentation to effectively convey their findings and conclusions."
+        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+      },
+      {
+        "roundName": "Round 2",
+        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Umesh Amrutkar",
+        "name": "Suyash Dashputre",
         "phone": "9922026188"
       },
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
+        "name": "Vedant Patil",
+        "phone": "7057523666"
       }
     ]
   }
