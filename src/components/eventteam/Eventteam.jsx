@@ -6,8 +6,8 @@ const EventTeam = () => {
     <div className="eventteam" id="team">
       <div className="eventteam-title">Event Team</div>
       <div className="eventteam-container">
+          {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
-          <Fade direction="top" duration={2000}>
             <img
               className="eventteam-img"
               src="./assets/personicon.png"
@@ -25,8 +25,8 @@ const EventTeam = () => {
                 <BsLinkedin className="socialImg" />
               </a>
             </div>
-          </Fade>
         </div>
+          {/* </Fade> */}
         <div className="eventteam-card">
           <Fade direction="top" duration={2000}>
             <img

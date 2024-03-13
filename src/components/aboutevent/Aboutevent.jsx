@@ -11,7 +11,7 @@ const Aboutevent = () => {
 
       <div className="aboutContainer">
         <div className="about1">
-      <Fade direction="bottom" duration={2000}>
+      {/* <Fade direction="up" duration={2000} triggerOnce="true"> */}
           <div className="about11">
             <span className="aboutHeading">Zion</span>
             <span className="aboutContent">
@@ -30,9 +30,9 @@ const Aboutevent = () => {
               creativity.
             </span>
           </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
-        <Fade direction="bottom" duration={2000}>
+        {/* <Fade direction="bottom" duration={2000}> */}
 
         <div className="aboutImg">
           <img
@@ -41,9 +41,9 @@ const Aboutevent = () => {
             alt="Google Map showing event location"
           />
         </div>
-        </Fade>
+        {/* </Fade> */}
         <div className="about1">
-        <Fade direction="bottom" duration={2000}>
+        {/* <Fade direction="bottom" duration={2000}> */}
           <div className="about11">
             <span className="aboutHeading">Zion</span>
             <span className="aboutContent">
@@ -62,7 +62,7 @@ const Aboutevent = () => {
               creativity.
             </span>
           </div>
-        </Fade>
+        {/* </Fade> */}
         </div>
       </div>
     </div>

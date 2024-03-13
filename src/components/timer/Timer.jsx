@@ -74,7 +74,7 @@ const Timer = () => {
       {/* <h1 className="slogan">PUNE'S BIGGEST TECH CLASH</h1> */}
 
       <span className="startingSlogan">
-        Zion Zion is an annual technical festival organized by Dr. D.Y. Patil
+        Zion is an annual technical festival organized by Dr. D.Y. Patil
         Institute of Technology, Pimpri, Pune, that aims to provide a platform
         for students to showcase their technical skills and creativity.{" "}
       </span>
