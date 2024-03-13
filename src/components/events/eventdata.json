@@ -200,7 +200,8 @@
   },
   {
     "eventName": "Software projects ",
-    "eventDescription": "An exhibition of all the software projects created by the students of B.E.",
+    "cname":"Onground",
+    "eventDescription": "Software Exhibit  by ITSA in collaboration with ZION  is a Software Projects Exhibition of final year students. It is the showcase of innovation and practical application of their technical knowledge. Participants have to present their projects which could range from various domains in IT sector.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
@@ -211,16 +212,24 @@
     "gform":"https://forms.gle/heSV24w3RxNoAWai9",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": "Each project will demonstrates creativity, technical skills and problem solving abilities of students. Participation certificates will be provided to  all Participants. "
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "Eligibility Criteria",
+        "roundDescription": "1. Participants must be students of Dr. D Y Patil Institute of Technology, Pimpri, Pune"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": "2. Participants must be final year students"
+      },
+      {
+        "roundName": "Judging Criteria",
+        "roundDescription": "Judges will evaluate the projects based on functionality, feasibility, innovation and presentation."
+      },
+      {
+        "roundName": "",
+        "roundDescription": "Note:- Registrations will be done on the same day!"
       }
     ],
     "eventCoordinators": [
@@ -429,6 +438,7 @@
   },
   {
     "eventName": "Hardware project Exhibition",
+    "cname":"Onground",
     "eventDescription": "The Hardware Projects Event for final year students is a showcase of innovative and practical applications of hardware technology. Participants have to present their projects, which could range from robotics and automation systems to IoT devices and embedded systems. Each project demonstrates creativity, technical skills, and problem-solving abilities. ",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",

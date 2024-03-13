@@ -23,8 +23,8 @@ const EventContainer = () => {
         </div>
         <div className="eventBoxes">
           <Fade direction="bottom" duration={2000}>
-          {eventJson.map((event, index) => (
-            <div className="eventBox" key={index}>
+            {eventJson.map((event, index) => (
+              <div className="eventBox" key={index}>
                 <div className="event1">
                   <img
                     className="eventLogo"
@@ -43,9 +43,13 @@ const EventContainer = () => {
                           Know More
                         </button>
                       )}
-                      <a href={event.gform} target="_blank" rel="noreferrer">
-                      <button className="eventbt Reg">Register</button>
-                      </a>
+                      {event.cname === "Onground" ? (
+                        <button className="eventbt Reg">On-ground Registration</button>
+                      ) : (
+                        <a href={event.gform} target="_blank" rel="noreferrer">
+                          <button className="eventbt Reg">Register</button>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -103,8 +107,8 @@ const EventContainer = () => {
                     </div>
                   </div>
                 )}
-            </div>
-          ))}
+              </div>
+            ))}
           </Fade>
         </div>
       </div>
