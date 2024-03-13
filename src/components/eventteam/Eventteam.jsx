@@ -56,7 +56,7 @@ const EventTeam = () => {
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Suyash Dashputre</h2>
-            <p className="eventteam-position">Technical Lead</p>
+            <p className="eventteam-position">Technical Head</p>
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
@@ -77,7 +77,7 @@ const EventTeam = () => {
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Avishkar Dhanorkar</h2>
-            <p className="eventteam-position">Technical Lead</p>
+            <p className="eventteam-position">Technical Head</p>
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
@@ -98,7 +98,7 @@ const EventTeam = () => {
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Paras Wadkar</h2>
-            <p className="eventteam-position">Technical Lead</p>
+            <p className="eventteam-position">Technical Head</p>
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
