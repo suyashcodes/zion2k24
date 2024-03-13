@@ -22,7 +22,7 @@ const EventContainer = () => {
           <div className="domainHeading">EVENTS</div>
         </div>
         <div className="eventBoxes">
-          <Fade direction="bottom" duration={2000} triggerOnce="true">
+          {/* <Fade direction="up" duration={2000} triggerOnce="true"> */}
             {eventJson.map((event, index) => (
               <div className="eventBox" key={index}>
                 <div className="event1">
@@ -109,7 +109,7 @@ const EventContainer = () => {
                 )}
               </div>
             ))}
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </>

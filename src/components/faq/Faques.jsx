@@ -93,7 +93,7 @@ const FAQSection = () => {
   };
 
   return (
-    <Fade duration={2000} triggerOnce="true">
+    // <Fade duration={2000} triggerOnce="true">
       <div className="faq-section" id="faq">
         <div className="domain-heading">FAQ's</div>
         <div className="faq-list">
@@ -116,7 +116,7 @@ const FAQSection = () => {
           ))}
         </div>
       </div>
-    </Fade>
+    // </Fade>
   );
 };
 
