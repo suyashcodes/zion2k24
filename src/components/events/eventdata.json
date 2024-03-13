@@ -1,11 +1,11 @@
 [
   {
-    "eventName": "Tech Fued",
+    "eventName": "Tech Feud",
     "eventDescription": "Tech Feud is a 3-round Technical Quiz which is based on the popular TV show “Family Feud” but with technical questions. Two teams would compete against each other with technical questions, the team to press the buzzer in front of them first, would answer the asked question first.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
+      "entryFee": "99Rs",
       "teamSize": "1-5"
     },
     "img":"./assets/eventcardimg2.png",
