@@ -43,7 +43,7 @@ const EventContainer = () => {
                           Know More
                         </button>
                       )}
-                      <a href={event.gform} target="_blank">
+                      <a href={event.gform} target="_blank" rel="noreferrer">
                       <button className="eventbt Reg">Register</button>
                       </a>
                     </div>

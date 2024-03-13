@@ -105,7 +105,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/gokreakX2i3LKKF96",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -136,7 +136,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/DF5LePBfvj9vMjRX7",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -160,7 +160,7 @@
   },
   {
     "eventName": "Hash-IT-Out",
-    "eventDescription": "A 6 hour hackathon where participants will be given problem statements to work on.",
+    "eventDescription": "Hash-IT-Out from ITSA in collaboration with ZION, will be a 6 hours hackathon in which there will be team of 2-4 members. They have to choose their domain and then have to give  innovative solution based on the topics mentioned in the description. There will be three winner teams and all participants will be given an participation certificate.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
@@ -168,19 +168,27 @@
       "teamSize": "1-4"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/1dDU3e3eqSMi1iJE8",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": "Join our hackathon featuring three exciting domains:"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": "Web Development"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": "Machine Learning"
+      },
+      {
+        "roundName": "",
+        "roundDescription": "Android Development"
+      },
+      {
+        "roundName": "",
+        "roundDescription": "Dive into the world of innovation with themes focusing on Education, Waste management, Health, Finance , Security. Time for this hackathon will be 6 hours. In given time you have to unleash your creativity to develop solutions that address real-world challenges in these crucial areas. Let's code for a better tomorrow! "
       }
     ],
     "eventCoordinators": [
@@ -217,26 +225,22 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Vaibhav Jagtap",
+        "phone": "9359913123"
       }
     ]
   },
   {
     "eventName": "Impromptu ",
-    "eventDescription": "With the help of AI image generators like, participants have to get creative and generate images on the given topic",
+    "eventDescription": "Welcome to Impromptu: Challenge, where spontaneity meets style in an exhilarating showcase of creativity and innovation! With 60 talented participants divided into two slots of 30, get ready for a whirlwind design.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "Solo"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/4rEzvpp8UdKLBhVf6",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -247,24 +251,20 @@
         "roundDescription": "The intensity ramps up as the remaining 16 players face off in a lightning-fast challenge. With only 10 minutes to spare, contestants must create four captivating images based on four new impromptu topics. Every second counts as participants push their limits to produce designs that captivate the imagination. In the end, only the top 3 designs from each group will secure a place among the winners."
       },
       {
-        "roundName": "Round 3",
-        "roundDescription": "Join us for a thrilling showcase of talent and innovation as our participants vie for glory in the IMPROMPTU: Challenge. Get ready to witness the power of creativity unleashed."
+        "roundName": "",
+        "roundDescription": "Join us for a thrilling showcase of talent and innovation as our participants vie for glory in the IMPROMPTU: Challenge. Get ready to witness the power of creativity unleashed. ."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "phone": "7276315895",
+        "name": "Rohit Lad"
       }
     ]
   },
   {
     "eventName": "Mad Max Gaming event",
-    "eventDescription": "An eSports event organised for all the gamers, consisting of a variety of games for the participants to choose from. ",
+    "eventDescription": "An eSports event organised for all the gamers, consisting of a variety of games for the participants. Get ready to dive into the ultimate gaming showdown! 🌟 Join us for an electrifying experience at the Madmax Gaming Event, where only the fiercest squads will reign supreme! ",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
@@ -272,29 +272,25 @@
       "teamSize": "1-4"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/NRruo9xA1KN9WWBP6",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "Valorant",
+        "roundDescription": "Form your dream team of up to 5 players and compete in adrenaline-pumping knock-out matches. Will your squad be the last one standing?"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "BGMI (BattleGrounds Mobile India)",
+        "roundDescription": "Assemble your squad of 4 players and dive into action-packed full-map and TDM matches. Survive the qualification round to advance to the epic final battle and claim victory!"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "Free Fire",
+        "roundDescription": "Assemble your squad of 4 players and dive into action-packed full-map and TDM matches. Survive the qualification round to advance to the epic final battle and claim victory!"
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Suraj Kothule",
+        "phone": "7499507957"
       }
     ]
   },
@@ -308,7 +304,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/mmJvMWDMafzTaHTq8",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -325,12 +321,8 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Gayatri Rashinkar",
+        "phone": "8856973536"
       }
     ]
   },
@@ -344,7 +336,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/eykisYJQQDP6y4eh6",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -361,12 +353,8 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Arnav Dedhe",
+        "phone": "9922902585"
       }
     ]
   },
@@ -381,7 +369,7 @@
       "teamSize": "1-3"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/QLnUZhxcNKUEwWXr7",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -390,16 +378,20 @@
       {
         "roundName": "Round 2",
         "roundDescription": "The short listed members will be qualified for the 2nd round and will be asked to choose a random statement  problem statement and according to the statement they have to perform the LADDER programming."
+      },
+      {
+        "roundName": "",
+        "roundDescription": "The PLC Programming Event provides an invaluable opportunity for students or professionals to showcase their skills in industrial automation, network with industry experts, and gain recognition for their expertise in this critical field of engineering."
+      },
+      {
+        "roundName": "",
+        "roundDescription": "During the event, participants will be judged on various criteria, including the functionality and reliability of their PLC program, creativity in problem-solving, and the effectiveness of their presentation and explanation of the programming logic."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Suhani Savaikar",
+        "phone": "9309760454"
       }
     ]
   },
@@ -413,7 +405,7 @@
       "teamSize": "SOLO"
     },
     "img":"./assets/neocoding.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/h4mhhxYHAPUbJhxY9",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -430,18 +422,14 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Saurabh Bhosale",
+        "phone": "8767333540"
       }
     ]
   },
   {
-    "eventName": "Hardware Projects",
-    "eventDescription": "This Event showcases final year students' innovative hardware applications, spanning robotics, automation, IoT devices, and embedded systems. Participants present projects demonstrating creativity, technical prowess, and problem-solving. The event fosters idea-sharing, industry engagement, and feedback from professionals. Judges evaluate projects based on functionality, feasibility, innovation, and presentation.",
+    "eventName": "Hardware project Exhibition",
+    "eventDescription": "The Hardware Projects Event for final year students is a showcase of innovative and practical applications of hardware technology. Participants have to present their projects, which could range from robotics and automation systems to IoT devices and embedded systems. Each project demonstrates creativity, technical skills, and problem-solving abilities. ",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
@@ -452,26 +440,14 @@
     "gform":"https://forms.gle/heSV24w3RxNoAWai9",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": "The event will provide an opportunity for students to share their ideas, engage with industry professionals, and receive feedback  on their designs. Judges will evaluate the projects based on the following criteria: functionality, feasibility, innovation and presentation. The event aims to inspire and recognize the next generation of hardware engineers and innovators. As this is exhibition,no rounds will be held for this event ."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Apurv Rakshe",
+        "phone": "9850365999"
       }
     ]
   },
@@ -485,7 +461,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/ZrAuw5EL35isMVrx7",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -502,12 +478,8 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Bhargav Gharat",
+        "phone": "9967464451"
       }
     ]
   },
@@ -521,7 +493,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/AaDYE6VJyYnEqpHt9",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -538,18 +510,42 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Deep Nannaware",
+        "phone": "8459523637"
       }
     ]
   },
   {
-    "eventName": "Model Master",
-    "eventDescription": "An event where participants will showcase their ideas/models based on sustainable development. ",
+    "eventName": "Bridge Mania",
+    "eventDescription": "Welcome to the thrilling world of bridge engineering! The Bridge Mania event, it is a platform for budding engineers to showcase their creativity, innovation, and technical skills in designing and constructing bridges.",
+    "eventDetails": {
+      "dateAndTime": "2 April 12-6pm",
+      "prizePool": "5000Rs",
+      "entryFee": "200Rs",
+      "teamSize": "1-4"
+    },
+    "img":"./assets/eventcardimg2.png",
+    "gform":"https://forms.gle/N8ZCpjdfBfxdLxwNA",
+    "eventRounds": [
+      {
+        "roundName": "Description",
+        "roundDescription": "Design Competition :- Participants will compete to create the most efficient and aesthetically pleasing bridge design using specified materials, given guidelines and in given time frame.."
+      },
+      {
+        "roundName": "",
+        "roundDescription": "Don't miss this opportunity to unleash your creativity, test your skills, and compete for recognition in the exciting realm of bridge engineering! Register now and be a part of Bridge Mania!."
+      }
+    ],
+    "eventCoordinators": [
+      {
+        "name": "Chirayu Wadile",
+        "phone": "8888642515"
+      }
+    ]
+  },
+  {
+    "eventName": "CADnovation ",
+    "eventDescription": "Are you an aspiring designer with a passion for creativity? Do you have what it takes to  push the boundries of an Civil Engineer? Engaging design challenges will test participants' ability to solve practical engineering problems.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
@@ -557,142 +553,26 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/MZwhCe4gMSKMSTUL6",
     "eventRounds": [
       {
         "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundDescription": "In this invigorating competition Participants will compete to create innovative and technically sound designs using CAD software of Public  building developed plan (G+1). Participants will be allowed to choose their Public building(Public building options will be given by the Organizers) along with designing guidelines/rules which will be provided to them at event. "
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": "The AutoCAD software installed pcs will be provided to Participants. Get ready to unlash your creativity to flaunt your CAD skills! Don't miss this apportunity to compete,learn,  and win exciting prizes."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Mrunali Tambe",
+        "phone": "7887432448"
       }
     ]
   },
   {
-    "eventName": "Mindbend ",
-    "eventDescription": "A treasure hunt where the participants have to find the treasure based on given clues.",
-    "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
-      "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
-    },
-    "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
-    "eventRounds": [
-      {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
-      }
-    ],
-    "eventCoordinators": [
-      {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
-      }
-    ]
-  },
-  {
-    "eventName": "NeuroSpark",
-    "eventDescription": "An circuit-building event",
-    "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
-      "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
-    },
-    "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
-    "eventRounds": [
-      {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
-      }
-    ],
-    "eventCoordinators": [
-      {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
-      }
-    ]
-  },
-  {
-    "eventName": "Style Saga",
-    "eventDescription": "An event where participants will be given material to get creative and create a costume. ",
-    "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
-      "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
-    },
-    "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
-    "eventRounds": [
-      {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
-      }
-    ],
-    "eventCoordinators": [
-      {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
-      }
-    ]
-  },
-  {
-    "eventName": "Think Thank",
+    "eventName": "Think Tank",
     "eventDescription": "Think Tank is a platform for the participants to pitch their technical product idea in efficient way. Pitching of their product or idea must be done with the help of presentation, tagline and a marketing skit.",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
@@ -701,29 +581,25 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/DH1wDcvGfQqXsLd37",
     "eventRounds": [
       {
         "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundDescription": "In the first round, we have the product/idea presentation, where contestants will showcase their groundbreaking ideas. Introduction:  Begin with a captivating introduction to grab the audience's attention. Problem Statement:  Clearly define the problem your idea/product solves. Solution Overview:  Present your idea/product as the innovative solution to the identified problem. Key Features:  Highlight the unique features and advantages of your idea/product."
       },
       {
         "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundDescription": "Next up, we have the group discussion round, where teams will engage in dynamic conversations, exchanging ideas and perspectives to solve a common challenge.This round focuses communication skills. "
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "Round 3",
+        "roundDescription": "The final round is marketing skit where participants will showcase their creativity and marketing skills. Each team will perform a short skit that effectively markets their idea or product.The skit should highlight the key features and benefits of their idea/product in a fun and compelling way."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Vishal Rajpurohit",
+        "phone": "9322714205"
       }
     ]
   },
@@ -769,23 +645,23 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://docs.google.com/forms/d/e/1FAIpQLSfQHBfwHXsEXVKTPjPIFFgDhWhUeKK-fL-kEWuCh_c24wcbKg/viewform?usp=sf_link",
+    "gform":"https://forms.gle/hbBQYnsTBhrbbtax9",
     "eventRounds": [
       {
-        "roundName": "Round 1",
+        "roundName": "Round 1 - Number Hunt",
         "roundDescription": "All groups will be given one number and they will be asked to find five chits of same number which will be hidden in the area from canteen to parking . Three cordinators will be present there to collect and the verify number of chits collected ,now the coordinators will provide group leader with a chit having PC number written on it . And the teams will be forwarded to next part of round one , which is going to be geo-guesser {it will be held on 6th and 7th floor}. As the teams start reaching to the lab , the coordinators present at lab will check the chit and will show them their respective PCs. Now in this round , teams will play an online game called geo-guesser {25 minutes will be given for five rounds}, A leader-board will be created and some teams will be eliminated."
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "Buzzer Round - This is going to be a simple quiz buzzer round having questions ranging from basic to hard difficulty. A group of teams will be asked a total of 10 - 12 questions of different domains (movies,tech,GK,Sports etc). After the quiz , points table will be updated according to the team performance .Elimination of teams will take place as per the updated points table."
+        "roundName": "Round 2 - Buzzer Round",
+        "roundDescription": "This is going to be a simple quiz buzzer round having questions ranging from basic to hard difficulty. A group of teams will be asked a total of 10 - 12 questions of different domains (movies,tech,GK,Sports etc). After the quiz , points table will be updated according to the team performance .Elimination of teams will take place as per the updated points table."
       },
       {
-        "roundName": "Round 3",
-        "roundDescription": "Gaming Round - Gaming round This round is a thrilling and fun round . The task here is to play a pc game (Asphalt 9) . There will be a multiplayer race in which 2 rounds will be given to each team . Any 1 member from every team will play this round and according to the positions ,respective points will be given. Elimination of teams will take place as per the updated points table."
+        "roundName": "Round 3 - Gaming Round",
+        "roundDescription": "Gaming round This round is a thrilling and fun round . The task here is to play a pc game (Asphalt 9) . There will be a multiplayer race in which 2 rounds will be given to each team . Any 1 member from every team will play this round and according to the positions ,respective points will be given. Elimination of teams will take place as per the updated points table."
       },
       {
-        "roundName": "Round 4",
-        "roundDescription": "Escape Room - This round is based upon a movie scipt , as the plot of the movie goes final teams will be confined in a room full of puzzles and clues interrelated to each other and the team will solves all the puzzles given to them correctly they will rewarded with bonus points , and the teams finishing behind them will be given points as set ."
+        "roundName": "Round 4 - Escape Room",
+        "roundDescription": "This round is based upon a movie scipt , as the plot of the movie goes final teams will be confined in a room full of puzzles and clues interrelated to each other and the team will solves all the puzzles given to them correctly they will rewarded with bonus points , and the teams finishing behind them will be given points as set ."
       }
     ],
     "eventCoordinators": [
@@ -805,7 +681,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/NucazTPRGNXWQ2us9",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -822,18 +698,14 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Soham Ingole",
+        "phone": "8788757156"
       }
     ]
   },
   {
     "eventName": "Saudagar",
-    "eventDescription": " Business plan competition : Business plan competition organised by department of MBA in Zion Techfest",
+    "eventDescription": "Business plan competition : Business plan competition organised by department of MBA in Zion Techfest",
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
@@ -841,7 +713,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/9FsJntdjcxJPtVaLA",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -858,12 +730,8 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
+        "name": "Harshad Sampad",
         "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
       }
     ]
   },
@@ -877,7 +745,7 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/PbdRM1ch8tiU55Jx5",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -894,12 +762,8 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Rohan Shrotar",
+        "phone": "8669351686"
       }
     ]
   }
