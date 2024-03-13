@@ -6,10 +6,10 @@
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "1-5"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/hpTif7RfNUdmhvcX7",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -90,8 +90,8 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Ruturaj Jawale",
-        "phone": "9322154324"
+        "name": "Ruchi Barne",
+        "phone": "9699380787"
       }
     ]
   },
@@ -180,17 +180,13 @@
       },
       {
         "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundDescription": "Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Anuj Walse Patil",
+        "phone": "7977028729"
       }
     ]
   },
@@ -741,29 +737,25 @@
       "teamSize": "1-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/heSV24w3RxNoAWai9",
+    "gform":"https://forms.gle/TLs7rtAsT6A569d29",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "Round 1 - Quiz Round",
+        "roundDescription": "Participants will be presented with a series of questions related to the field of Electronics & Communication. Questions can cover topics such as electronic components, circuit design, signal processing, communication protocols,etc. The team with the highest score at the end of the round advances to the next round."
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "Round 2 - Auction Round",
+        "roundDescription": "Each team will be given a virtual budget. An auction will be conducted where various electronic components and materials required for circuit implementation will be up for bidding. Teams bid on the components they need to build their circuit. Teams need to strategize and manage their budget efficiently to acquire the necessary components. The team with the best components within their budget proceeds to the next round"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "Round 3 - Circuit Simulation using Tinkercad",
+        "roundDescription": "Teams will use Tinkercad software to design and simulate electronic circuits. Each team will be given a specific circuit design challenge or problem statement. Teams will use the components they acquired in the auction round to build and simulate the circuit. Judges will evaluate the functionality, efficiency, and creativity of the circuit designs. Teams may have the opportunity to present and explain their designs to the judges. The team with the most innovative and effective circuit design wins the round."
       }
     ],
     "eventCoordinators": [
       {
-        "name": "Suyash Dashputre",
-        "phone": "9922026188"
-      },
-      {
-        "name": "Vedant Patil",
-        "phone": "7057523666"
+        "name": "Ashutosh Ranjan",
+        "phone": "8810450789"
       }
     ]
   },
