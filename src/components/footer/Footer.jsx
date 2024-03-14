@@ -32,7 +32,7 @@ const Footer = ()=>{
                     <a href="https://www.instagram.com/zion.dit" ><li className="links">Instagram</li></a>
                     <a href="https://www.linkedin.com/company/zion-dit/" ><li className="links">Linkedin</li></a>
                     <a href="mailto:zion.dit@dypvp.edu.in" ><li className="links">EMail</li></a>
-                    <a href="wa.me/+917796678222" ><li className="links">Whatsapp</li></a>
+                    <a href="https://wa.me/+917796678222" ><li className="links">Whatsapp</li></a>
                     <a href="https://www.github.com/suyashcodes/zion2k24/" ><li className="links">Github</li></a>
                 </ul>
             </div>
