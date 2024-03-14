@@ -505,7 +505,7 @@ const EventTeam = () => {
         </div>
           {/* </Fade> */}
       </div>
-      <div className="eventteam-title-pos">Campaining Head</div>
+      <div className="eventteam-title-pos">Campaigning Head</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">

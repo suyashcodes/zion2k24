@@ -278,7 +278,7 @@
     "eventDetails": {
       "dateAndTime": "1-3 April",
       "prizePool": "5000Rs",
-      "entryFee": "BGMI - 200Rs(Squad) | Free Fire - 200(Squad) | Valorant - 250(Solo)",
+      "entryFee": "BGMI - 200Rs(Squad) | Free Fire - 200(Squad) | Valorant - 250(Squad)",
       "teamSize": "1-4"
     },
     "img":"./assets/zionevents/9.png",
@@ -290,11 +290,11 @@
       },
       {
         "roundName": "BGMI (BattleGrounds Mobile India)",
-        "roundDescription": "Assemble your squad of 4 players and dive into action-packed full-map and TDM matches. Survive the qualification round to advance to the epic final battle and claim victory!"
+        "roundDescription": "Assemble your squad of 4 players and dive into action-packed full-map. Survive the qualification round to advance to the epic final battle and claim victory!"
       },
       {
         "roundName": "Free Fire",
-        "roundDescription": "Assemble your squad of 4 players and dive into action-packed full-map and TDM matches. Survive the qualification round to advance to the epic final battle and claim victory!"
+        "roundDescription": "Assemble your squad of 4 players and dive into action-packed full-map. Survive the qualification round to advance to the epic final battle and claim victory!"
       }
     ],
     "eventCoordinators": [
