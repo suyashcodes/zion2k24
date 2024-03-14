@@ -720,8 +720,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "-",
-      "teamSize": "-"
+      "entryFee": "-
+      ",
+      "teamSize": "-
+      "
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/9FsJntdjcxJPtVaLA",
@@ -752,8 +754,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "-",
-      "teamSize": "-"
+      "entryFee": "-
+      ",
+      "teamSize": "-
+      "
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/PbdRM1ch8tiU55Jx5",
