@@ -278,7 +278,7 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
+      "entryFee": "BGMI - 200Rs(Squad) | Free Fire - 200(Squad) | Valorant - 250(Solo)",
       "teamSize": "1-4"
     },
     "img":"./assets/zionevents/9.png",
@@ -556,7 +556,7 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "100Rs",
+      "entryFee": "60Rs",
       "teamSize": "Solo"
     },
     "img":"./assets/zionevents/18.png",
