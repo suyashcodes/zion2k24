@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Pratik Kakade",
+      "position": "Event Head",
+      "linkedin": "https://www.linkedin.com/in/codersuyash/",
+      "mail": "mailto:pratik@example.com",
+      "photo": "./assets/personicon.png"
+    },
+    {
+      "name": "John Doe",
+      "position": "Event Coordinator",
+      "linkedin": "https://www.linkedin.com/in/johndoe/",
+      "mail": "mailto:john@example.com",
+      "photo": "./assets/johndoe.png"
+    },
+    {
+      "name": "Jane Smith",
+      "position": "Event Organizer",
+      "linkedin": "https://www.linkedin.com/in/janesmith/",
+      "mail": "mailto:jane@example.com",
+      "photo": "./assets/janesmith.png"
+    }
+  ]
+  

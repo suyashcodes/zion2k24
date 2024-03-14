@@ -5,6 +5,7 @@ const EventTeam = () => {
   return (
     <div className="eventteam" id="team">
       <div className="eventteam-title">Event Team</div>
+      <div className="eventteam-title-pos">Event Heads</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
