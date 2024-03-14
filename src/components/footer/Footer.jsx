@@ -19,21 +19,21 @@ const Footer = ()=>{
             <div className="footertwo">
                 <h3 className="zionheading">Quick Links</h3>
                 <ul className="quicklinks">
-                    <li className="links">Home</li>
-                    <li className="links">About</li>
-                    <li className="links">Events</li>
-                    <li className="links">Team</li>
-                    <li className="links">FAQ</li>
+                <a href="" ><li className="links">Home</li></a>
+                    <a href="#about" ><li className="links">About</li></a>
+                    <a href="#events" ><li className="links">Events</li></a>
+                    <a href="#team" ><li className="links">Team</li></a>
+                    <a href="#faq" ><li className="links">FAQ</li></a>
                 </ul>
             </div>
             <div className="footerthree">
                 <h3 className="zionheading">Socials</h3>
                 <ul className="quicklinks">
-                    <li className="links">Instagram</li>
-                    <li className="links">Linkedin</li>
-                    <li className="links">EMail</li>
-                    <li className="links">Whatsapp</li>
-                    <li className="links">Github</li>
+                    <a href="https://www.instagram.com/zion.dit" ><li className="links">Instagram</li></a>
+                    <a href="https://www.linkedin.com/company/zion-dit/" ><li className="links">Linkedin</li></a>
+                    <a href="mailto:zion.dit@dypvp.edu.in" ><li className="links">EMail</li></a>
+                    <a href="wa.me/+917796678222" ><li className="links">Whatsapp</li></a>
+                    <a href="https://www.github.com/suyashcodes/zion2k24/" ><li className="links">Github</li></a>
                 </ul>
             </div>
         </div>
