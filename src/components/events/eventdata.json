@@ -469,22 +469,22 @@
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "Solo"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/ZrAuw5EL35isMVrx7",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": ""
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": ""
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": ""
       }
     ],
     "eventCoordinators": [
@@ -501,7 +501,7 @@
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "Solo"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/AaDYE6VJyYnEqpHt9",
