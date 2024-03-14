@@ -6,9 +6,9 @@
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "99Rs",
-      "teamSize": "1-5"
+      "teamSize": "2-5"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/1.png",
     "gform":"https://forms.gle/hpTif7RfNUdmhvcX7",
     "eventRounds": [
       {
@@ -44,7 +44,7 @@
       "entryFee": "Solo-60 | Duo-100",
       "teamSize": "1-2"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/2.png",
     "gform":"https://docs.google.com/forms/d/e/1FAIpQLSc0jWSggiogudPgsRZPtRh_5witmiWUDdga_N84BuMqVjiU9Q/viewform?usp=sf_link",
     "eventRounds": [
       {
@@ -81,7 +81,7 @@
       "entryFee": "60Rs",
       "teamSize": "Solo"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/3.png",
     "gform":"https://docs.google.com/forms/d/1wDEYFYusc8nRR5mRmgBOIjHZEJ2gATGIsGJzz0kbARg/viewform?edit_requested=true",
     "eventRounds": [
       {
@@ -105,7 +105,7 @@
       "entryFee": "60Rs",
       "teamSize": "1-4"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/4.png",
     "gform":"https://forms.gle/gokreakX2i3LKKF96",
     "eventRounds": [
       {
@@ -133,10 +133,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "3"
+      "entryFee": "100Rs",
+      "teamSize": "4"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/5.png",
     "gform":"https://forms.gle/DF5LePBfvj9vMjRX7",
     "eventRounds": [
       {
@@ -165,10 +165,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "125Rs",
+      "teamSize": "2-4"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/6.png",
     "gform":"https://forms.gle/1dDU3e3eqSMi1iJE8",
     "eventRounds": [
       {
@@ -200,16 +200,16 @@
     ]
   },
   {
-    "eventName": "Software projects ",
+    "eventName": "Software ExhibIT",
     "cname":"Onground",
     "eventDescription": "Software Exhibit  by ITSA in collaboration with ZION  is a Software Projects Exhibition of final year students. It is the showcase of innovation and practical application of their technical knowledge. Participants have to present their projects which could range from various domains in IT sector.",
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "FREE",
+      "teamSize": "-"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/7.png",
     "gform":"https://forms.gle/heSV24w3RxNoAWai9",
     "eventRounds": [
       {
@@ -249,7 +249,7 @@
       "entryFee": "60Rs",
       "teamSize": "Solo"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/8.png",
     "gform":"https://forms.gle/4rEzvpp8UdKLBhVf6",
     "eventRounds": [
       {
@@ -281,7 +281,7 @@
       "entryFee": "60Rs",
       "teamSize": "1-4"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/9.png",
     "gform":"https://forms.gle/NRruo9xA1KN9WWBP6",
     "eventRounds": [
       {
@@ -313,7 +313,7 @@
       "entryFee": "60Rs",
       "teamSize": "Solo"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/10.png",
     "gform":"https://forms.gle/mmJvMWDMafzTaHTq8",
     "eventRounds": [
       {
@@ -345,7 +345,7 @@
       "entryFee": "Solo - 80 | Duo - 150",
       "teamSize": "1-2"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/11.png",
     "gform":"https://forms.gle/eykisYJQQDP6y4eh6",
     "eventRounds": [
       {
@@ -375,10 +375,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
+      "entryFee": "Solo - 60 | Duo - 100 | Trio - 150",
       "teamSize": "1-3"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/12.png",
     "gform":"https://forms.gle/QLnUZhxcNKUEwWXr7",
     "eventRounds": [
       {
@@ -414,7 +414,7 @@
       "entryFee": "60Rs",
       "teamSize": "SOLO"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/13.png",
     "gform":"https://forms.gle/h4mhhxYHAPUbJhxY9",
     "eventRounds": [
       {
@@ -444,10 +444,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "-",
+      "entryFee": "FREE",
       "teamSize": "-"
     },
-    "img":"./assets/neocoding.png",
+    "img":"./assets/zionevents/14.png",
     "gform":"https://forms.gle/heSV24w3RxNoAWai9",
     "eventRounds": [
       {
@@ -464,14 +464,14 @@
   },
   {
     "eventName": "F1 Simulator",
-    "eventDescription": " A F1 simulation which provides the participants an engrossing experience where the participant becomes a driver in the adrenaline-filled, competitive world of Formula 1.",
+    "eventDescription": "A F1 simulation which provides the participants an engrossing experience where the participant becomes a driver in the adrenaline-filled, competitive world of Formula 1.",
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "Solo"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/15.png",
     "gform":"https://forms.gle/ZrAuw5EL35isMVrx7",
     "eventRounds": [
       {
@@ -503,7 +503,7 @@
       "entryFee": "60Rs",
       "teamSize": "Solo"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/16.png",
     "gform":"https://forms.gle/AaDYE6VJyYnEqpHt9",
     "eventRounds": [
       {
@@ -531,7 +531,7 @@
       "entryFee": "200Rs",
       "teamSize": "2-4"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/17.png",
     "gform":"https://forms.gle/iXq84f6zLyN66bfC9",
     "eventRounds": [
       {
@@ -559,7 +559,7 @@
       "entryFee": "100Rs",
       "teamSize": "Solo"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/18.png",
     "gform":"https://forms.gle/S39nQ39bJEUV2oBW8",
     "eventRounds": [
       {
@@ -587,7 +587,7 @@
       "entryFee": "Duo - 100 | Trio - 150 | Squad - 200",
       "teamSize": "2-4"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/19.png",
     "gform":"https://forms.gle/DH1wDcvGfQqXsLd37",
     "eventRounds": [
       {
@@ -619,7 +619,7 @@
       "entryFee": "60Rs",
       "teamSize": "2 and 4"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/20.png",
     "gform":"https://forms.gle/TLs7rtAsT6A569d29",
     "eventRounds": [
       {
@@ -648,10 +648,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "125Rs",
+      "teamSize": "3"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/21.png",
     "gform":"https://forms.gle/hbBQYnsTBhrbbtax9",
     "eventRounds": [
       {
@@ -687,7 +687,7 @@
       "entryFee": "200Rs",
       "teamSize": "5"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/22.png",
     "gform":"https://forms.gle/NucazTPRGNXWQ2us9",
     "eventRounds": [
       {
@@ -720,10 +720,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "-",
-      "teamSize": "-"
+      "entryFee": "199",
+      "teamSize": "2-4"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/23.png",
     "gform":"https://forms.gle/9FsJntdjcxJPtVaLA",
     "eventRounds": [
       {
@@ -752,10 +752,10 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "-",
-      "teamSize": "-"
+      "entryFee": "Solo-99 | Duo-149",
+      "teamSize": "1-2"
     },
-    "img":"./assets/eventcardimg2.png",
+    "img":"./assets/zionevents/24.png",
     "gform":"https://forms.gle/PbdRM1ch8tiU55Jx5",
     "eventRounds": [
       {
