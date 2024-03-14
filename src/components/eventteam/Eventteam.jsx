@@ -20,7 +20,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -28,7 +28,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,7 +47,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -55,7 +55,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -82,7 +82,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -106,7 +106,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -114,7 +114,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -133,7 +133,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -141,7 +141,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -160,7 +160,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -168,7 +168,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -192,7 +192,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -200,7 +200,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -219,7 +219,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -227,7 +227,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -251,7 +251,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -259,7 +259,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -337,7 +337,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -345,7 +345,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -369,7 +369,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -377,7 +377,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -396,7 +396,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -404,7 +404,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -428,7 +428,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -436,7 +436,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -460,7 +460,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -468,7 +468,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -487,7 +487,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -495,7 +495,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -519,7 +519,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -527,7 +527,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/codersuyash/"
+                href="zion-dit.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
