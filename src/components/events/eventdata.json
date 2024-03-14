@@ -134,7 +134,7 @@
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "3"
     },
     "img":"./assets/neocoding.png",
     "gform":"https://forms.gle/DF5LePBfvj9vMjRX7",
@@ -556,7 +556,7 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
+      "entryFee": "100Rs",
       "teamSize": "Solo"
     },
     "img":"./assets/eventcardimg2.png",
@@ -584,8 +584,8 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "Duo - 100 | Trio - 150 | Squad - 200",
+      "teamSize": "2-4"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/DH1wDcvGfQqXsLd37",
