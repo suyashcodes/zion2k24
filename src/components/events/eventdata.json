@@ -3,7 +3,7 @@
     "eventName": "Tech Feud",
     "eventDescription": "Tech Feud is a 3-round Technical Quiz which is based on the popular TV show “Family Feud” but with technical questions. Two teams would compete against each other with technical questions, the team to press the buzzer in front of them first, would answer the asked question first.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "99Rs",
       "teamSize": "1-5"
@@ -39,7 +39,7 @@
     "eventName": "Neo Coding",
     "eventDescription": "Welcome to Neo-Coding, where the virtual arena transforms into a battleground for the sharpest minds in the realm of programming.Neo-Coding is a 4 round technical event designed to push the boundaries of participants coding prowess. Neo - Coding is open to coding enthusiasts, programmers, and developers from all backgrounds and skill levels.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "Solo-60 | Duo-100",
       "teamSize": "1-2"
@@ -72,10 +72,11 @@
     ]
   },
   {
-    "eventName": "HOVR",
+    "eventName": "HOVR",    
+    "cname":"Onground",
     "eventDescription": "Use HoVR to take a space walk and fulfill your visualization experience in Virtual Reality(VR).",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "Solo"
@@ -85,7 +86,7 @@
     "eventRounds": [
       {
         "roundName": "Description",
-        "roundDescription": "Use HoVR to take a spacewalk and feel the vastness of space with this VR experience.HoVR immerses users into a virtual world where reality is redefined and boundaries disappear. Through cutting-edge technology, participants are transported to alternate realms, where they can explore, interact, and engage with digital environments in ways previously unimaginable. HoVR redefines space exploration by offering a breathtaking virtual reality (VR) experience that allows users to immerse themselves in the wonders of the cosmos. Through cutting-edge technology and meticulously crafted visualizations, participants embark on an unforgettable journey through the vast expanse of space."
+        "roundDescription": "Spending 15 minutes on a space stroll could alter your objective. Use HoVR to take a spacewalk and feel the vastness of space with this VR experience.HoVR immerses users into a virtual world where reality is redefined and boundaries disappear. Through cutting-edge technology, participants are transported to alternate realms, where they can explore, interact, and engage with digital environments in ways previously unimaginable. HoVR redefines space exploration by offering a breathtaking virtual reality (VR) experience that allows users to immerse themselves in the wonders of the cosmos. Through cutting-edge technology and meticulously crafted visualizations, participants embark on an unforgettable journey through the vast expanse of space."
       }
     ],
     "eventCoordinators": [
@@ -99,7 +100,7 @@
     "eventName": "NEUROSPARK",
     "eventDescription": "Tech Feud is a 3-round Technical Quiz which is based on the popular TV show “Family Feud” but with technical questions. Two teams would compete against each other with technical questions, the team to press the buzzer in front of them first, would answer the asked question first.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -130,7 +131,7 @@
     "eventName": "StyleSaga",
     "eventDescription": "StyleSaga  is the 3 round non technical event which is organised for drawing out the creative and the passion within the participants. As the event consists of designing a costume or accessories from the given material within the given time frame and show case their creativity ability. It's a fun event as well as challenging activity for the participants.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -162,7 +163,7 @@
     "eventName": "Hash-IT-Out",
     "eventDescription": "Hash-IT-Out from ITSA in collaboration with ZION, will be a 6 hours hackathon in which there will be team of 2-4 members. They have to choose their domain and then have to give  innovative solution based on the topics mentioned in the description. There will be three winner teams and all participants will be given an participation certificate.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -203,7 +204,7 @@
     "cname":"Onground",
     "eventDescription": "Software Exhibit  by ITSA in collaboration with ZION  is a Software Projects Exhibition of final year students. It is the showcase of innovation and practical application of their technical knowledge. Participants have to present their projects which could range from various domains in IT sector.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -243,7 +244,7 @@
     "eventName": "Impromptu ",
     "eventDescription": "Welcome to Impromptu: Challenge, where spontaneity meets style in an exhilarating showcase of creativity and innovation! With 60 talented participants divided into two slots of 30, get ready for a whirlwind design.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "Solo"
@@ -275,7 +276,7 @@
     "eventName": "Mad Max Gaming event",
     "eventDescription": "An eSports event organised for all the gamers, consisting of a variety of games for the participants. Get ready to dive into the ultimate gaming showdown! 🌟 Join us for an electrifying experience at the Madmax Gaming Event, where only the fiercest squads will reign supreme! ",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -305,27 +306,27 @@
   },
   {
     "eventName": "Pixel Punch",
-    "eventDescription": "An event for the graphic designing enthusiasts",
+    "eventDescription": "Pixel Punch is a thrilling event that consists of three exciting stages.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "Solo"
     },
     "img":"./assets/neocoding.png",
     "gform":"https://forms.gle/mmJvMWDMafzTaHTq8",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "Stage 1",
+        "roundDescription": "Participants will be presented with a problem statement and tasked with designing a captivating poster. A panel of judges will evaluate the posters, selecting top contenders to advance to the next stage."
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "Stage 2",
+        "roundDescription": "In the second stage, participants will receive another challenging problem statement for poster design. The most impressive designs will be shortlisted for the final round."
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "Stage 3",
+        "roundDescription": " The finalists will face a final challenge: designing a unique logo based on a given problem statement. Winners will be selected for the coveted 1st, 2nd, and 3rd place positions based on the quality and creativity of their logo designs."
       }
     ],
     "eventCoordinators": [
@@ -339,25 +340,25 @@
     "eventName": "Robo Race",
     "eventDescription": "A robot race involving a track of multiple obstacles for the robots to cross.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "Solo - 80 | Duo - 150",
+      "teamSize": "1-2"
     },
     "img":"./assets/neocoding.png",
     "gform":"https://forms.gle/eykisYJQQDP6y4eh6",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "Stage 1",
+        "roundDescription": "KNOCK OUT ROUND – Each team will race theirs bots against time. Bots have to travel a given track(without obstacles) and complete it within 3-4 minutes. Each team will get a dry run to test their bots before actual competition for 1 minute. Top 10 teams with less time will qualify for next round. "
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "Stage 2",
+        "roundDescription": "QUALIFIER ROUND – The teams with less time will play in this stage. Obstacles would be added in the race track for this round. Each team has to complete the given race track within 3-4 minutes. Each team will get a dry run for 1 minute before the real competition. Top 5 teams with less time would qualify in the final round."
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "Stage 3 - Final Round",
+        "roundDescription": "FINAL ROUND – The top 5 team will race against each other in this round. A surprise element/obstacle will be added in the race track for the final round. The top 3 teams with less time would be awarded as Winner and Runner-up."
       }
     ],
     "eventCoordinators": [
@@ -372,7 +373,7 @@
     "eventName": "PLC Programming",
     "eventDescription": "This is an exciting competition where participants showcase their proficiency in industrial automation programming. Teams and individuals are tasked with programming a PLC to control a simulated manufacturing process or system, such as a conveyor belt. Competitors must demonstrate their ability to write efficient and reliable PLC code to achieve specific objectives, such as optimizing production efficiency, safety protocols.",    
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-3"
@@ -408,7 +409,7 @@
     "eventName": "Arm wrestling",
     "eventDescription": "Arm wrestling is a strength-based competition where two opponents sit across on a table, locking hands, and attempt to force each other's arm down to the table. It's a test of upper body strength, wrist stability, and technique. Matches will be intense, often it may involve strategic positioning and sudden bursts of power to gain leverage.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "SOLO"
@@ -441,10 +442,10 @@
     "cname":"Onground",
     "eventDescription": "The Hardware Projects Event for final year students is a showcase of innovative and practical applications of hardware technology. Participants have to present their projects, which could range from robotics and automation systems to IoT devices and embedded systems. Each project demonstrates creativity, technical skills, and problem-solving abilities. ",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "-",
+      "teamSize": "-"
     },
     "img":"./assets/neocoding.png",
     "gform":"https://forms.gle/heSV24w3RxNoAWai9",
@@ -465,7 +466,7 @@
     "eventName": "F1 Simulator",
     "eventDescription": " A F1 simulation which provides the participants an engrossing experience where the participant becomes a driver in the adrenaline-filled, competitive world of Formula 1.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -497,7 +498,7 @@
     "eventName": "CAD Wars",
     "eventDescription": "An event where the participants will be using CAD software to show their mechanical prowess.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -507,15 +508,11 @@
     "eventRounds": [
       {
         "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundDescription": "2D DRAWING - 30 Min"
       },
       {
         "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
-      },
-      {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundDescription": "3D DRAWING - 90 Min"
       }
     ],
     "eventCoordinators": [
@@ -529,13 +526,13 @@
     "eventName": "Bridge Mania",
     "eventDescription": "Welcome to the thrilling world of bridge engineering! The Bridge Mania event, it is a platform for budding engineers to showcase their creativity, innovation, and technical skills in designing and constructing bridges.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "200Rs",
-      "teamSize": "1-4"
+      "teamSize": "2-4"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/N8ZCpjdfBfxdLxwNA",
+    "gform":"https://forms.gle/iXq84f6zLyN66bfC9",
     "eventRounds": [
       {
         "roundName": "Description",
@@ -557,13 +554,13 @@
     "eventName": "CADnovation ",
     "eventDescription": "Are you an aspiring designer with a passion for creativity? Do you have what it takes to  push the boundries of an Civil Engineer? Engaging design challenges will test participants' ability to solve practical engineering problems.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "Solo"
     },
     "img":"./assets/eventcardimg2.png",
-    "gform":"https://forms.gle/MZwhCe4gMSKMSTUL6",
+    "gform":"https://forms.gle/S39nQ39bJEUV2oBW8",
     "eventRounds": [
       {
         "roundName": "Round 1",
@@ -585,7 +582,7 @@
     "eventName": "Think Tank",
     "eventDescription": "Think Tank is a platform for the participants to pitch their technical product idea in efficient way. Pitching of their product or idea must be done with the help of presentation, tagline and a marketing skit.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -615,12 +612,12 @@
   },
   {
     "eventName": "Electromaze",
-    "eventDescription": "Think Tank is a platform for the participants to pitch their technical product idea in efficient way. Pitching of their product or idea must be done with the help of presentation, tagline and a marketing skit.",
+    "eventDescription": "ELECTROMAZE is a multi-round competition that combines quizzes, auctions, and circuit simulations to put your electronic prowess to the test. Whether you're a seasoned engineer or a budding enthusiast, there's something for everyone in this electrifying journey.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "teamSize": "2 and 4"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/TLs7rtAsT6A569d29",
@@ -649,7 +646,7 @@
     "eventName": "Survival Of The Fittest",
     "eventDescription": "Get ready for the event never seen before . Use your sharp minds and physical skills to survive among all teams. But don't you be worried , no coding rounds ahead . We intend to make a playful , competitive and fun enviournment in this battle of the bests . BE SURE TO REGISTER FOR SURVIVAL OF THE FITTEST",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -658,19 +655,19 @@
     "gform":"https://forms.gle/hbBQYnsTBhrbbtax9",
     "eventRounds": [
       {
-        "roundName": "Round 1 - Number Hunt",
+        "roundName": "Round 1 - Number Hunt(1 Hr)",
         "roundDescription": "All groups will be given one number and they will be asked to find five chits of same number which will be hidden in the area from canteen to parking . Three cordinators will be present there to collect and the verify number of chits collected ,now the coordinators will provide group leader with a chit having PC number written on it . And the teams will be forwarded to next part of round one , which is going to be geo-guesser {it will be held on 6th and 7th floor}. As the teams start reaching to the lab , the coordinators present at lab will check the chit and will show them their respective PCs. Now in this round , teams will play an online game called geo-guesser {25 minutes will be given for five rounds}, A leader-board will be created and some teams will be eliminated."
       },
       {
-        "roundName": "Round 2 - Buzzer Round",
+        "roundName": "Round 2 - Buzzer Round(30 Min)",
         "roundDescription": "This is going to be a simple quiz buzzer round having questions ranging from basic to hard difficulty. A group of teams will be asked a total of 10 - 12 questions of different domains (movies,tech,GK,Sports etc). After the quiz , points table will be updated according to the team performance .Elimination of teams will take place as per the updated points table."
       },
       {
-        "roundName": "Round 3 - Gaming Round",
+        "roundName": "Round 3 - Gaming Round(45 Min)",
         "roundDescription": "Gaming round This round is a thrilling and fun round . The task here is to play a pc game (Asphalt 9) . There will be a multiplayer race in which 2 rounds will be given to each team . Any 1 member from every team will play this round and according to the positions ,respective points will be given. Elimination of teams will take place as per the updated points table."
       },
       {
-        "roundName": "Round 4 - Escape Room",
+        "roundName": "Round 4 - Escape Room(1 Hr)",
         "roundDescription": "This round is based upon a movie scipt , as the plot of the movie goes final teams will be confined in a room full of puzzles and clues interrelated to each other and the team will solves all the puzzles given to them correctly they will rewarded with bonus points , and the teams finishing behind them will be given points as set ."
       }
     ],
@@ -683,33 +680,37 @@
   },
   {
     "eventName": "Astral Hideaway",
-    "eventDescription": "An unique blend of a treasure hunt and hide-and-seek",
+    "eventDescription": "‘Astral Hideaway’ sounds like a creative twist on the conventional game of hide and seek and the combination of treasure hunt. In this non-technical event at our college, participants may engage in a game where they will get a childhood touch of hide and seek within a designated space.",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "31 March-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "200Rs",
+      "teamSize": "5"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/NucazTPRGNXWQ2us9",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "Round 1 - Star Hunt",
+        "roundDescription": "Welcome to Star Hunt, the ultimate star collection game! Round 1 is all about collecting the stars, but not just any stars – we're talking about stars of five dazzling shades!"
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "Round 2 - Run For Survival",
+        "roundDescription": "As the competition intensifies, the selected teams from the previous round are now divided into two equally matched groups: Alpha and Delta. Each group have their own virtue to win by hiding at darkest place and seeking with mental alertness."
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "Round 3 - Be The Conquerer",
+        "roundDescription": "Welcome to the last Round, to be the conquerer. Here, the selected teams will experience the thrill of Crown, Goblins and Predators lurk."
       }
     ],
     "eventCoordinators": [
       {
         "name": "Soham Ingole",
         "phone": "8788757156"
+      },
+      {
+        "name": "Sidhi Koul",
+        "phone": "8384020095"
       }
     ]
   },
@@ -717,7 +718,7 @@
     "eventName": "Saudagar",
     "eventDescription": "Business plan competition : Business plan competition organised by department of MBA in Zion Techfest",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"
@@ -749,7 +750,7 @@
     "eventName": "King of NIFTY",
     "eventDescription": "King of Nifty event based on share market",
     "eventDetails": {
-      "dateAndTime": "2 April 12-6pm",
+      "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
       "entryFee": "60Rs",
       "teamSize": "1-4"

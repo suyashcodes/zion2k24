@@ -186,7 +186,7 @@
 }
 @media (max-width: 768px) {
   .eventBox {
-    width: 85%;
+    width: 92%;
     display: flex;
     flex-direction: column;
     justify-content: center;
