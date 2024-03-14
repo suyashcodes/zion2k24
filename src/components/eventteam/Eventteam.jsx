@@ -73,7 +73,7 @@ const EventTeam = () => {
           <Fade direction="top" duration={2000}>
             <img
               className="eventteam-img"
-              src="./assets/personicon.png"
+              src="./assets/avi.jpg"
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Avishkar Dhanorkar</h2>
@@ -81,7 +81,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="https://www.linkedin.com/in/avidhanorkar23/"
+                href="https://www.linkedin.com/in/avishkar23/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

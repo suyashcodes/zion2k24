@@ -193,7 +193,7 @@
     ],
     "eventCoordinators": [
       {
-        "name": "Anuj Walse Patil",
+        "name": "Anuj Walsepatil",
         "phone": "7977028729"
       }
     ]
@@ -687,8 +687,8 @@
     "eventDetails": {
       "dateAndTime": "2 April 12-6pm",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "200Rs",
+      "teamSize": "5"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/NucazTPRGNXWQ2us9",
