@@ -113,4 +113,10 @@
   .eventteam-card {
     margin-right: 0px;
   }
+  .eventteam-container{
+    flex-direction: column;
+  }
+  .socialImg{
+    margin: 0;
+  }
 }
