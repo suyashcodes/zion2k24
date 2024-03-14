@@ -146,7 +146,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#schedule"
+                href="#team"
                 className="navLinks"
                 activeClassName="activeLink"
               >
