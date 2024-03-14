@@ -98,7 +98,7 @@
   },
   {
     "eventName": "NEUROSPARK",
-    "eventDescription": "Tech Feud is a 3-round Technical Quiz which is based on the popular TV show “Family Feud” but with technical questions. Two teams would compete against each other with technical questions, the team to press the buzzer in front of them first, would answer the asked question first.",
+    "eventDescription": "Delve into the intricate world of neuroscience with NeuroSpark! This event challenges participants to navigate through brain-teasing puzzles and innovative challenges, all designed to ignite sparks of creativity and knowledge in the realm of neuroscience.",
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
@@ -720,23 +720,23 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "-",
+      "teamSize": "-"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/9FsJntdjcxJPtVaLA",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": ""
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": ""
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": ""
       }
     ],
     "eventCoordinators": [
@@ -752,23 +752,23 @@
     "eventDetails": {
       "dateAndTime": "1-3 APril",
       "prizePool": "5000Rs",
-      "entryFee": "60Rs",
-      "teamSize": "1-4"
+      "entryFee": "-",
+      "teamSize": "-"
     },
     "img":"./assets/eventcardimg2.png",
     "gform":"https://forms.gle/PbdRM1ch8tiU55Jx5",
     "eventRounds": [
       {
-        "roundName": "Round 1",
-        "roundDescription": "All the teams who have registered would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": ""
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": "The teams having the top scores after qualification round, would be seleted for semi-finals. They would compete in the same way as qualification round but the difficulty/ complexity of questions would be a bit more. They would compete in this round with 5 questions."
+        "roundName": "",
+        "roundDescription": ""
       },
       {
-        "roundName": "Round 2",
-        "roundDescription": " Top 2 teams of the semi-finals round would compete in the Finals. They would have 10 questions.The team to score the most points, would be declared as the winner of “Tech Feud”."
+        "roundName": "",
+        "roundDescription": ""
       }
     ],
     "eventCoordinators": [
