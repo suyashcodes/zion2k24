@@ -22,12 +22,9 @@ const Aboutevent = () => {
             </span>
           </div>
           <div className="about11">
-            <span className="aboutHeading">Zion</span>
+            <span className="aboutHeading">DIT PIMPRI</span>
             <span className="aboutContent">
-              Zion is an annual technical festival organized by Dr. D.Y. Patil
-              Institute of Technology, Pimpri, Pune, that aims to provide a
-              platform for students to showcase their technical skills and
-              creativity.
+            Welcome to Dr. D. Y. Patil Institute of Technology (DIT), Pimpri, Pune. This campus is started in year 1983 and further nurtured by our visionary Chairman Hon’ble Dr. P. D. Patil with the vision “Empowerment through knowledge” “Better Education Better World”.
             </span>
           </div>
           {/* </Fade> */}
@@ -45,21 +42,17 @@ const Aboutevent = () => {
         <div className="about1">
         {/* <Fade direction="bottom" duration={2000}> */}
           <div className="about11">
-            <span className="aboutHeading">Zion</span>
+            <span className="aboutHeading">History</span>
             <span className="aboutContent">
-              Zion is an annual technical festival organized by Dr. D.Y. Patil
-              Institute of Technology, Pimpri, Pune, that aims to provide a
-              platform for students to showcase their technical skills and
-              creativity.
+              
+ZION, has been a celebrated tradition since 2006, showcasing a diverse array of events encompassing both technical and non-technical domains. ZION has grown into a vibrant platform for fostering creativity, innovation.
             </span>
           </div>
           <div className="about11">
-            <span className="aboutHeading">Zion</span>
+            <span className="aboutHeading">Events</span>
             <span className="aboutContent">
-              Zion is an annual technical festival organized by Dr. D.Y. Patil
-              Institute of Technology, Pimpri, Pune, that aims to provide a
-              platform for students to showcase their technical skills and
-              creativity.
+              
+At ZION's annual fest, participants can engage in a myriad of captivating events spanning various domains, offering opportunities for learning, competition, and creativity. With a diverse range of activities encompassing technical challenges, gaming experiences, and creative showcases, 
             </span>
           </div>
         {/* </Fade> */}
