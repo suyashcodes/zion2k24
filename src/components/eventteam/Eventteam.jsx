@@ -125,7 +125,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
             <img
               className="eventteam-img"
-              src="./assets/personicon.png"
+              src="./assets/shar.jpeg"
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Sharvari Hinge</h2>
@@ -141,7 +141,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="zion-dit.vercel.app"
+                href="https://www.linkedin.com/in/sharvari-hinge-b34b86249"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -329,7 +329,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
             <img
               className="eventteam-img"
-              src="./assets/personicon.png"
+              src="./assets/paras.jpeg"
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Paras Wadkar</h2>
