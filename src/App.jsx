@@ -34,8 +34,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Aboutevent />
-      <Eventteam />
       <Events />
+      <Eventteam />
       <Faques />
       <Footer/> 
       {/* <Domain />
