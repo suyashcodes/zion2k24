@@ -345,7 +345,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="zion-dit.vercel.app"
+                href="www.linkedin.com/in/paras-wadkar-906628292"
                 target="_blank"
                 rel="noopener noreferrer"
               >
