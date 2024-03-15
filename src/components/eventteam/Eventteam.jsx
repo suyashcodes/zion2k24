@@ -337,7 +337,7 @@ const EventTeam = () => {
             <div className="eventteam-social">
               <a
                 className="whatsapp-anchor"
-                href="zion-dit.vercel.app"
+                href={"mailto:paraswadkar11@gmail.com"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -345,7 +345,7 @@ const EventTeam = () => {
               </a>
               <a
                 className="whatsapp-anchor"
-                href="www.linkedin.com/in/paras-wadkar-906628292"
+                href="https://www.linkedin.com/in/paras-wadkar-906628292"
                 target="_blank"
                 rel="noopener noreferrer"
               >
