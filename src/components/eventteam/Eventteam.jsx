@@ -6,7 +6,7 @@ const EventTeam = () => {
   return (
     <div className="eventteam" id="team">
       <div className="eventteam-title">ZION Committee</div>
-      <div className="eventteam-title-pos">Head Coordinator</div>
+      <div className="eventteam-title-pos">Head Coordinators</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
@@ -92,7 +92,7 @@ const EventTeam = () => {
         </div>
           {/* </Fade> */}
       </div>
-      <div className="eventteam-title-pos">Event Head Manager</div>
+      <div className="eventteam-title-pos">Event Head Managers</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
@@ -178,7 +178,7 @@ const EventTeam = () => {
         </div>
           {/* </Fade> */}
       </div>
-      <div className="eventteam-title-pos">Finance Head</div>
+      <div className="eventteam-title-pos">Finance Heads</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
@@ -237,7 +237,7 @@ const EventTeam = () => {
         </div>
           {/* </Fade> */}
       </div>
-      <div className="eventteam-title-pos">Marketing Heads</div>
+      <div className="eventteam-title-pos">Marketing Head</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
@@ -446,7 +446,7 @@ const EventTeam = () => {
         </div>
           {/* </Fade> */}
       </div>
-      <div className="eventteam-title-pos">Video Editing</div>
+      <div className="eventteam-title-pos">Editing Heads</div>
       <div className="eventteam-container">
           {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
         <div className="eventteam-card">
