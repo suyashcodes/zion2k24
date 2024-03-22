@@ -537,6 +537,67 @@ const EventTeam = () => {
         </div>
           {/* </Fade> */}
       </div>
+            <div className="eventteam-title-pos">Design & Creatives Heads</div>
+      <div className="eventteam-container">
+          {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
+        <div className="eventteam-card">
+            <img
+              className="eventteam-img"
+              src="./assets/personicon.png"
+              alt="Team Member 1"
+            />
+            <h2 className="eventteam-name">Darshan Banait</h2>
+            {/* <p className="eventteam-position">Event Head</p> */}
+            <div className="eventteam-social">
+              <a
+                className="whatsapp-anchor"
+                href="zion-dit.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillMail className="socialImg" />
+              </a>
+              <a
+                className="whatsapp-anchor"
+                href="zion-dit.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillLinkedin className="socialImg" />
+              </a>
+            </div>
+        </div>
+      <div className="eventteam-container">
+          {/* <Fade direction="top" duration={2000} triggerOnce="true"> */}
+        <div className="eventteam-card">
+            <img
+              className="eventteam-img"
+              src="./assets/personicon.png"
+              alt="Team Member 1"
+            />
+            <h2 className="eventteam-name">Samruddhi Rane</h2>
+            {/* <p className="eventteam-position">Event Head</p> */}
+            <div className="eventteam-social">
+              <a
+                className="whatsapp-anchor"
+                href="zion-dit.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillMail className="socialImg" />
+              </a>
+              <a
+                className="whatsapp-anchor"
+                href="zion-dit.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillLinkedin className="socialImg" />
+              </a>
+            </div>
+        </div>
+          {/* </Fade> */}
+      </div>
 
 
       
