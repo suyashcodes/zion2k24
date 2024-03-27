@@ -125,7 +125,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
             <img
               className="eventteam-img"
-              src="./assets/picon.png"
+              src="./assets/shar.jpeg"
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Sharvari Hinge</h2>
@@ -543,7 +543,7 @@ const EventTeam = () => {
         <div className="eventteam-card">
             <img
               className="eventteam-img"
-              src="./assets/picon.png"
+              src="./assets/dbanait.jpeg"
               alt="Team Member 1"
             />
             <h2 className="eventteam-name">Darshan Banait</h2>
